@@ -202,7 +202,8 @@ function openShopMiaoshaPanel(pl,cashTx,data,currPanel)
 			end)
 			GameController.addButtonSound(buyBtn , BUTTON_SOUND_TYPE.CLICK_EFFECT)
 
-			if timeEnd == false then
+			local alwaysShow = true
+			if alwaysShow or timeEnd == false then
 				-- nameTx:setText(award.name)
 				-- nameTx:setColor(award.color)
 				nameTx:setText(string.format(getLocalStringValue('EXP_EFFECT_REMAIN'),count))
@@ -229,6 +230,11 @@ function openShopMiaoshaPanel(pl,cashTx,data,currPanel)
 					buyBtn:setTouchEnable(false)
 					buyBtn:setText(getLocalStringValue('E_STR_WELFARE_END'))
 				else
+					buyBtn:setNormalButtonGray(false)
+					buyBtn:setTouchEnable(true)
+					buyBtn:setText(getLocalStringValue('E_STR_SHOP_MIAOSHA'))
+				end
+				if alwaysShow then
 					buyBtn:setNormalButtonGray(false)
 					buyBtn:setTouchEnable(true)
 					buyBtn:setText(getLocalStringValue('E_STR_SHOP_MIAOSHA'))

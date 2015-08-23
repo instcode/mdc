@@ -363,3 +363,10 @@ end
 function PlayerCoreData.getClientBaseVersion()
 	return PlayerCore:getClientBaseVersion()
 end
+
+function PlayerCoreData.getCurrentTowerFloor()
+	local selfObj = PlayerCore:getSelfObject()
+	if selfObj then
+		return selfObj:GetCurrentFloor()
+	end
+end

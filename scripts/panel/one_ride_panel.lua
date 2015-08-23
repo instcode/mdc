@@ -61,6 +61,7 @@ function OneRide.enter()
 	local needGold
 	local rewardData
 	local isNeedUpdate = false
+	local lost = false
 	local freeTimes = 0
 	local cashTimes = 0
 
@@ -185,6 +186,7 @@ function OneRide.enter()
 	local function onClickEmBattleBtn()
 		OpenEmbattleUi()
 		isNeedUpdate = true
+		lost = false
 	end
 
 	-- 查看阵型
@@ -201,18 +203,11 @@ function OneRide.enter()
 		resetCashTx:setVisible(isShowBox)
 	end
 
-	local function onClickChallengeBtn()
-		if oneRideData.progress >= #oneRideConf then
-			GameController.showPrompts(getLocalStringValue('E_ONERIDE_FINISH_NOTICE_DESC'))
+	local function attack(count)
+		if (count == 0) then
 			return
 		end
-
-		if PlayerCoreData.getGoldValue() < needGold then
-			GameController.showPrompts(getLocalStringValue('E_STR_NOT_ENOUGH_GOLD'), COLOR_TYPE.RED)
-			return
-		end
-
-		Message.sendPost('fight_one_ride','activity','{}',function (jsonData)
+		Message.sendPost('fight_one_ride','activity','{}', function (jsonData)
 			--cclog(jsonData)
 			local jsonDic = json.decode(jsonData)
 			if jsonDic['code'] ~= 0 then
@@ -233,9 +228,37 @@ function OneRide.enter()
 			if data['battle'] then
 				isNeedUpdate = tonumber(data['battle']['success']) == 1
 				GameController.clearAwardView()
-				GameController.playBattle(json.encode(data['battle']) , 5)
+				if isNeedUpdate or not lost then
+					GameController.playBattle(json.encode(data['battle']) , 5)
+				else
+					if count % 10 == 0 then
+						GameController:showPrompts("Retrying...", COLOR_TYPE.GREEN)
+					elseif count == 1 then
+						GameController:showPrompts("Can't win :(...", COLOR_TYPE.RED)
+					end
+					attack(count - 1)
+				end
+				lost = not isNeedUpdate
 			end
 		end)
+	end
+
+	local function onClickChallengeBtn()
+		if oneRideData.progress >= #oneRideConf then
+			GameController.showPrompts(getLocalStringValue('E_ONERIDE_FINISH_NOTICE_DESC'))
+			return
+		end
+
+		if PlayerCoreData.getGoldValue() < needGold then
+			GameController.showPrompts(getLocalStringValue('E_STR_NOT_ENOUGH_GOLD'), COLOR_TYPE.RED)
+			return
+		end
+
+		if lost then
+			attack(100)
+		else
+			attack(1)
+		end
 	end
 
 	local function updateEnemyPos()
@@ -556,7 +579,7 @@ function OneRide.enter()
 			oneRideData['num'] = tonumber(data['num'])
 			freeTimes = tonumber(data['free_times'])
 			cashTimes = tonumber(data['cash_times'])
-
+			lost = false
 			createPanel()
 		end)
 	end

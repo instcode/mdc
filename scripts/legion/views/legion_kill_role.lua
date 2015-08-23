@@ -61,6 +61,7 @@ function KillRole.enter()
 	local needFood
 	local rewardData
 	local isNeedUpdate = false
+	local lost = false
 	local freeTimes = 0
 	local cashTimes = 0
 
@@ -185,6 +186,7 @@ function KillRole.enter()
 	local function onClickEmBattleBtn()
 		OpenEmbattleUi()
 		isNeedUpdate = true
+		lost = false
 	end
 
 	-- 查看阵型
@@ -201,17 +203,10 @@ function KillRole.enter()
 		resetCashTx:setVisible(isShowBox)
 	end
 
-	local function onClickChallengeBtn()
-		if killRoleData.progress >= #killConf then
-			GameController.showPrompts(getLocalStringValue('E_STR_KILLTWO_FINISH'))
+	local function attack(count)
+		if (count == 0) then
 			return
 		end
-
-		if PlayerCoreData.getFoodValue() < needFood then
-			GameController.showPrompts(getLocalStringValue('E_STR_FOOD_NOT_ENOUGH'), COLOR_TYPE.RED)
-			return
-		end
-
 		Message.sendPost('fight_kill2','activity','{}',function (jsonData)
 			cclog(jsonData)
 			local jsonDic = json.decode(jsonData)
@@ -233,9 +228,37 @@ function KillRole.enter()
 			if data['battle'] then
 				isNeedUpdate = tonumber(data['battle']['success']) == 1
 				GameController.clearAwardView()
-				GameController.playBattle(json.encode(data['battle']) , 5)
+				if isNeedUpdate or not lost then
+					GameController.playBattle(json.encode(data['battle']) , 5)
+				else
+					if count % 10 == 0 then
+						GameController:showPrompts("Retrying...", COLOR_TYPE.GREEN)
+					elseif count == 1 then
+						GameController:showPrompts("Can't win :(...", COLOR_TYPE.RED)
+					end
+					attack(count - 1)
+				end
+				lost = not isNeedUpdate
 			end
 		end)
+	end
+
+	local function onClickChallengeBtn()
+		if killRoleData.progress >= #killConf then
+			GameController.showPrompts(getLocalStringValue('E_STR_KILLTWO_FINISH'))
+			return
+		end
+
+		if PlayerCoreData.getFoodValue() < needFood then
+			GameController.showPrompts(getLocalStringValue('E_STR_FOOD_NOT_ENOUGH'), COLOR_TYPE.RED)
+			return
+		end
+
+		if lost then
+			attack(100)
+		else
+			attack(1)
+		end
 	end
 
 	local function updateEnemyPos()
@@ -552,7 +575,7 @@ function KillRole.enter()
 			killRoleData['num'] = tonumber(data['num'])
 			freeTimes = tonumber(data['free_times'])
 			cashTimes = tonumber(data['cash_times'])
-
+			lost = false
 			createPanel()
 		end)
 	end
