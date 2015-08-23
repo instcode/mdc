@@ -1,0 +1,12 @@
+编号	消耗元宝值	奖励1
+Id	Paid	Award1
+1	100	material.21:10
+2	300	material.21:20
+3	500	material.19:10
+4	800	material.19:20
+5	1000	material.26:10
+6	2000	material.26:20
+7	3000	material.82:5
+8	5000	material.82:8
+9	8000	material.82:10
+10	10000	material.82:15

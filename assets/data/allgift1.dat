@@ -1,0 +1,24 @@
+配置文件	奖励类型(all:全民充值累计 self:个人充值)	累计指标	奖励1	奖励2	奖励3	奖励4
+Id	Type	PayMin	Award1	Award2	Award3	Award4
+1	self	0	material.3415:1	user.soul:5000	gem.904:2	material.82:10
+2	self	0	material.3414:3	user.soul:3500	gem.904:1	material.82:7
+3	self	0	material.3414:3	user.soul:3000	gem.903:2	material.82:5
+4	self	0	material.3414:3	user.soul:2500	gem.903:2	material.82:4
+5	self	0	material.3414:2	user.soul:2200	gem.903:2	material.82:4
+6	self	0	material.3414:2	user.soul:2000	gem.903:1	material.82:4
+7	self	0	material.3414:2	user.soul:1800	gem.903:1	material.82:3
+8	self	0	material.3414:1	user.soul:1500	gem.903:1	material.82:3
+9	self	0	material.3414:1	user.soul:2000	gem.903:1	material.82:3
+10	self	0	material.3414:1	user.soul:1000	gem.903:1	material.82:3
+1	all	99	user.food:500	material.28:1	user.gold:100000	material.21:5
+2	all	999	user.food:500	material.29:1	user.soul:200	material.21:5
+3	all	9999	user.food:500	material.30:1	user.gold:150000	material.21:5
+4	all	19999	user.food:500	material.3412:1	user.soul:250	material.21:5
+5	all	39999	user.food:500	material.3412:1	user.gold:200000	material.21:5
+6	all	59999	user.food:500	material.3412:1	user.soul:300	material.21:5
+7	all	99999	user.food:500	material.3413:1	user.gold:300000	material.21:5
+8	all	199999	user.food:500	material.3413:1	user.soul:400	material.21:5
+9	all	299999	user.food:500	material.3413:1	user.gold:400000	material.21:10
+10	all	399999	user.food:500	material.3413:1	user.soul:500	material.21:10
+11	all	599999	user.food:500	material.3413:1	user.gold:500000	material.21:20
+12	all	999999	user.food:500	material.3413:2	user.soul:1000	material.21:20

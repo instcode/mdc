@@ -1,0 +1,56 @@
+编号	名称	显示颜色	级质	属性	值	是否可购买	图标	描述	出售价格	战斗力计算参数
+Id	Name	Color	Quantity	Key	Value	Buyable	Url	Desc	Sell	FightForceFactor
+101	1级武力石	green	1	attack	100	1	gem/gem501.png	武力+100，可镶嵌于兵器	400	0
+102	2级武力石	green	2	attack	300		gem/gem502.png	武力+300，可镶嵌于兵器	1200	0
+103	3级武力石	blue	3	attack	700	1	gem/gem503.png	武力+700，可镶嵌于兵器	2000	0
+104	4级武力石	blue	4	attack	1300		gem/gem504.png	武力+1300，可镶嵌于兵器	3600	0
+105	5级武力石	purple	5	attack	2200		gem/gem505.png	武力+2200，可镶嵌于兵器	5200	0
+106	6级武力石	purple	6	attack	3700		gem/gem506.png	武力+3700，可镶嵌于兵器	7000	0
+107	7级武力石	orange	7	attack	6800		gem/gem507.png	武力+6800，可镶嵌于兵器	11000	0
+108	8级武力石	orange	8	attack	10800		gem/gem508.png	武力+10800，可镶嵌于兵器	13800	0
+109	9级武力石	orange	9	attack	15000		gem/gem509.png	武力+15000，可镶嵌于兵器	16800	0
+201	1级谋略石	green	1	magic	100	1	gem/gem201.png	谋略+100，可镶嵌于羽扇	400	0
+202	2级谋略石	green	2	magic	300		gem/gem202.png	谋略+300，可镶嵌于羽扇	1200	0
+203	3级谋略石	blue	3	magic	700	1	gem/gem203.png	谋略+700，可镶嵌于羽扇	2000	0
+204	4级谋略石	blue	4	magic	1300		gem/gem204.png	谋略+1300，可镶嵌于羽扇	3600	0
+205	5级谋略石	purple	5	magic	2200		gem/gem205.png	谋略+2200，可镶嵌于羽扇	5200	0
+206	6级谋略石	purple	6	magic	3700		gem/gem206.png	谋略+3700，可镶嵌于羽扇	7000	0
+207	7级谋略石	orange	7	magic	6800		gem/gem207.png	谋略+6800，可镶嵌于羽扇	11000	0
+208	8级谋略石	orange	8	magic	10800		gem/gem208.png	谋略+10800，可镶嵌于羽扇	13800	0
+209	9级谋略石	orange	9	magic	15000		gem/gem209.png	谋略+15000，可镶嵌于羽扇	16800	0
+301	1级武防石	green	1	defence	100	1	gem/gem301.png	武防+100，可镶嵌于铠甲	400	0
+302	2级武防石	green	2	defence	300		gem/gem302.png	武防+300，可镶嵌于铠甲	1200	0
+303	3级武防石	blue	3	defence	700	1	gem/gem303.png	武防+700，可镶嵌于铠甲	2000	0
+304	4级武防石	blue	4	defence	1300		gem/gem304.png	武防+1300，可镶嵌于铠甲	3600	0
+305	5级武防石	purple	5	defence	2200		gem/gem305.png	武防+2200，可镶嵌于铠甲	5200	0
+306	6级武防石	purple	6	defence	3700		gem/gem306.png	武防+3700，可镶嵌于铠甲	7000	0
+307	7级武防石	orange	7	defence	6800		gem/gem307.png	武防+6800，可镶嵌于铠甲	11000	0
+308	8级武防石	orange	8	defence	10800		gem/gem308.png	武防+10800，可镶嵌于铠甲	13800	0
+309	9级武防石	orange	9	defence	15000		gem/gem309.png	武防+15000，可镶嵌于铠甲	16800	0
+401	1级谋防石	green	1	mdefence	100	1	gem/gem401.png	谋防+100，可镶嵌于铠甲	400	0
+402	2级谋防石	green	2	mdefence	300		gem/gem402.png	谋防+300，可镶嵌于铠甲	1200	0
+403	3级谋防石	blue	3	mdefence	700	1	gem/gem403.png	谋防+700，可镶嵌于铠甲	2000	0
+404	4级谋防石	blue	4	mdefence	1300		gem/gem404.png	谋防+1300，可镶嵌于铠甲	3600	0
+405	5级谋防石	purple	5	mdefence	2200		gem/gem405.png	谋防+2200，可镶嵌于铠甲	5200	0
+406	6级谋防石	purple	6	mdefence	3700		gem/gem406.png	谋防+3700，可镶嵌于铠甲	7000	0
+407	7级谋防石	orange	7	mdefence	6800		gem/gem407.png	谋防+6800，可镶嵌于铠甲	11000	0
+408	8级谋防石	orange	8	mdefence	10800		gem/gem408.png	谋防+10800，可镶嵌于铠甲	13800	0
+409	9级谋防石	orange	9	mdefence	15000		gem/gem409.png	谋防+15000，可镶嵌于铠甲	16800	0
+501	1级统帅石	green	1	health	100	1	gem/gem601.png	兵力+100，可镶嵌于护符	400	0
+502	2级统帅石	green	2	health	300		gem/gem602.png	兵力+300，可镶嵌于护符	1200	0
+503	3级统帅石	blue	3	health	700	1	gem/gem603.png	兵力+700，可镶嵌于护符	2000	0
+504	4级统帅石	blue	4	health	1300		gem/gem604.png	兵力+1300，可镶嵌于护符	3600	0
+505	5级统帅石	purple	5	health	2200		gem/gem605.png	兵力+2200，可镶嵌于护符	5200	0
+506	6级统帅石	purple	6	health	3700		gem/gem606.png	兵力+3700，可镶嵌于护符	7000	0
+507	7级统帅石	orange	7	health	6800		gem/gem607.png	兵力+6800，可镶嵌于护符	11000	0
+508	8级统帅石	orange	8	health	10800		gem/gem608.png	兵力+10800，可镶嵌于护符	13800	0
+509	9级统帅石	orange	9	health	15000		gem/gem609.png	兵力+15000，可镶嵌于护符	16800	0
+901	1级士气石	green	1	power	10		gem/gem101.png	士气+10，可镶嵌于装备	400	0
+902	2级士气石	blue	2	power	30		gem/gem102.png	士气+30，可镶嵌于装备	1200	0
+903	3级士气石	purple	3	power	50		gem/gem103.png	士气+50，可镶嵌于装备	2000	0
+904	4级士气石	orange	4	power	80		gem/gem104.png	士气+80，可镶嵌于装备	3200	0
+905	5级士气石	orange	5	power	110		gem/gem105.png	士气+110，可镶嵌于装备	4400	0
+906	6级士气石	orange	6	power	150		gem/gem106.png	士气+150，可镶嵌于装备	6000	0
+907	7级士气石	orange	7	power	190		gem/gem107.png	士气+190，可镶嵌于装备	7600	0
+908	8级士气石	orange	8	power	230		gem/gem108.png	士气+230，可镶嵌于装备	9200	0
+909	9级士气石	orange	9	power	270		gem/gem109.png	士气+270，可镶嵌于装备	10800	0

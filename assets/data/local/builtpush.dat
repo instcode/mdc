@@ -1,0 +1,7 @@
+编号	推送功能	类型	内容
+Id	PushFunction	Type	Content
+1	主城税收	HarvestGold	主公，您的城池税收已满，请前往领取金币！
+2	磨坊征收	HarvestFood	主公，您的磨坊产粮已满，请前往收获粮食！
+3	镖局	Business	镖局商队休整完毕，士兵们都精力十足，赶紧开始新的通商旅程吧！
+4	训练馆	Training Center	训练位已空置，赶紧安排武将前去训练馆吧！
+5	招贤馆	FreeSolicit	当前可以免费进行至尊招將，三国名将都在等着你的召唤呢

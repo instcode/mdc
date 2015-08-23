@@ -1,0 +1,30 @@
+平台类型	校验服务器地址	资源服务器地址	平台描述	客户端地址
+PlatformType	ServerUrl	ResourceServerUrl	Desc	ClientUrl
+1	http://172.31.244.2/login.php		Win32	
+2	http://mdc.mengdiaochan.cn/applepp/login.php		applepp	
+3	http://mdc.mengdiaochan.cn/regist/login.php		apple	
+4	http://mdc.mengdiaochan.cn/appleitools/login.php		appleitools	
+5	http://mdc.mengdiaochan.cn/appletb/login.php		appletb	
+6	http://mdc.mengdiaochan.cn/apple91/login.php		apple91	
+7	http://mdc.mengdiaochan.cn/appleky/login.php		appleky	
+8	http://203.195.180.152/login.php		Android测试	
+9	http://mdc.mengdiaochan.cn/applexy/login.php		applexy	
+10	http://mdc.mengdiaochan.cn/appledl/login.php		appledl	
+11	http://mdc.mengdiaochan.cn/regist/login.php		applehm	
+12	http://mdc.mengdiaochan.cn/applei4/login.php		applei4	
+13	http://mdc.mengdiaochan.cn/applezy/login.php		applezy	
+101	http://mdc.mengdiaochan.cn/androiduc/login.php		androiduc	
+102	http://mdc.mengdiaochan.cn/androidbd/login.php		androidbd	
+103	http://mdc.mengdiaochan.cn/androidwdj/login.php		androidwdj	
+105	http://mdc.mengdiaochan.cn/androidxm/login.php		androidxm	
+106	http://mdc.mengdiaochan.cn/androidlenovo/login.php		androidlenovo	
+107	http://mdc.mengdiaochan.cn/androidoppo/login.php		androidoppo	
+108	http://mdc.mengdiaochan.cn/androidaz/login.php		androidaz	
+109	http://mdc.mengdiaochan.cn/android360/login.php		android360	
+110	http://mdc.mengdiaochan.cn/androidhw/login.php		androidhw	
+111	http://mdc.mengdiaochan.cn/androidjl/login.php		androidgionee	
+1001	http://mdcs1.mo-fun.com.tw/apple/login.php		apple	
+201	http://mdcs1.mo-fun.com.tw/androidfl/login.php		androidfl	
+2001	http://mdc1.menhthientu.com/androidluobao/login.php		androidluobao	
+3001	http://mdc1.menhthientu.com/apple/login.php		apple	
+3002	http://mdc1.menhthientu.com/android/login.php		android	

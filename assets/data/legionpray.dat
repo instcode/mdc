@@ -1,0 +1,3 @@
+编号	奖励1	权重1	奖励2	权重2	奖励3	权重3	奖励4	权重4	奖励5	权重5	奖励6	权重6	奖励7	权重7	奖励8	权重8
+Id	Award1	Weight1	Award2	Weight2	Award3	Weight3	Award4	Weight4	Award5	Weight5	Award6	Weight6	Award7	Weight7	Award8	Weight8
+1	user.food:200	125	user.food:400	67	user.food:600	30	material.22:1	125	material.19:1	84	material.19:3	40	material.26:1	55	material.3415:1	1

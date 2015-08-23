@@ -1,0 +1,17 @@
+阶段编号	目标编号	类型	成就名称	类型图标1	类型图标2	类型图标3	继承	达成条件1数量	达成条件1类型	达成条件2数量	达成条件2类型	达成条件3数量	达成条件3类型	奖励1	奖励2	奖励3	文字描述1	文字描述2	文字描述3	是否小于达成条件后判断为完成	美术字名称	阶段名称
+StageId	GoalId	Type	Desc	icon1	icon2	icon3	inherit	Condition1	Type1	Condition2	Type2	Condition3	Type3	Award1	Award2	Award3	Info1	Info2	Info3	Judgment	name	stageIdname
+1	1	tavern_hero	招募武将	tavern_hero_1.png	tavern_hero_2.png	tavern_hero_3.png	0	1		6		10		user.cash:20	user.cash:30	user.cash:40	招贤馆累计招募1次武将	招贤馆累计招募6次武将	招贤馆累计招募10次武将	0	tavern_hero_name.png	青铜成就
+1	2	reinforce_equip	强化装备	reinforce_equip_1.png	reinforce_equip_2.png	reinforce_equip_3.png	0	5	8	6	14	9	21	user.cash:20	user.cash:30	user.cash:40	将5件装备强化到8级	将6件装备强化到14级	将9件装备强化到21级	0	reinforce_equip_name.png	青铜成就
+1	3	pass_battle	野外征战	pass_battle_1.png	pass_battle_2.png	pass_battle_3.png	0	10		20		30		user.cash:20	user.cash:30	user.cash:40	出征！累计战胜10个关卡	出征！累计战胜20个关卡	出征！累计战胜30个关卡	0	pass_battle_name.png	青铜成就
+2	1	tavern_hero	招募武将	tavern_hero_1.png	tavern_hero_2.png	tavern_hero_3.png	1	20		40		60		user.cash:40	user.cash:50	user.cash:60	招贤馆累计招募20次武将	招贤馆累计招募40次武将	招贤馆累计招募60次武将	0	tavern_hero_name.png	白银成就
+2	2	pass_battle	野外征战	pass_battle_1.png	pass_battle_2.png	pass_battle_3.png	3	180		220		230		user.cash:40	user.cash:50	user.cash:60	出征！累计战胜180个关卡	出征！累计战胜220个关卡	出征！累计战胜230个关卡	0	pass_battle_name.png	白银成就
+2	3	equip	打造装备	equip_1.png	equip_2.png	equip_3.png	0	9	4	6	5	15	5	user.cash:40	user.cash:50	user.cash:60	打造9件四阶装备	打造6件五阶装备	打造15件五阶装备	0	equip_name.png	白银成就
+3	1	rank_level	擂台等级	rank_level_1.png	rank_level_2.png	rank_level_3.png	0	3		4		5		user.cash:60	user.cash:70	user.cash:80	擂台等级达到3级	擂台等级达到4级	擂台等级达到5级	0	rank_level_name.png	黄金成就
+3	2	pass_battle	野外征战	pass_battle_1.png	pass_battle_2.png	pass_battle_3.png	2	250		300		320		user.cash:60	user.cash:70	user.cash:80	出征！累计击破250个关卡	出征！累计击破300个关卡	出征！累计击破320个关卡	0	pass_battle_name.png	黄金成就
+3	3	transfer	武将转职	transfer_1.png	transfer_2.png	transfer_3.png	0	6	2	7	2	4	3	user.cash:60	user.cash:70	user.cash:80	6名武将转职到二阶	7名武将转职到二阶	4名武将转职到三阶	0	transfer_name.png	黄金成就
+4	1	three_battle	三星满贯	three_battle_1.png	three_battle_2.png	three_battle_3.png	0	114		125		140		user.cash:80	user.cash:90	user.cash:100	出征！累计战胜114个地狱难度关卡	出征！累计战胜125个地狱难度关卡	出征！累计战胜140个地狱难度关卡	0	three_battle_name.png	钻石成就
+4	2	tower	决战重楼	tower_1.png	tower_2.png	tower_3.png	0	45		50		55		user.cash:80	user.cash:90	user.cash:100	战胜千重楼45层	战胜千重楼50层	战胜千重楼55层	0	tower_name.png	钻石成就
+4	3	gem_inlay	宝石镶嵌	gem_inlay_1.png	gem_inlay_2.png	gem_inlay_3.png	0	10	3	5	4	2	5	user.cash:80	user.cash:90	user.cash:100	为装备镶嵌10颗三级宝石	为装备镶嵌5颗四级宝石	为装备镶嵌2颗五级宝石	0	gem_inlay_name.png	钻石成就
+5	1	pass_battle	野外征战	pass_battle_1.png	pass_battle_2.png	pass_battle_3.png	2	450		550		630		user.cash:100	user.cash:150	user.cash:200	出征！累计战胜450个关卡	出征！累计战胜550个关卡	出征！累计战胜630个关卡	0	pass_battle_name.png	至尊成就
+5	2	plunder_scroll	抢夺残卷	plunder_scroll_1.png	plunder_scroll_2.png	plunder_scroll_3.png	0	100		160		220		user.cash:100	user.cash:150	user.cash:200	成功抢夺残卷100次	成功抢夺残卷160次	成功抢夺残卷220次	0	plunder_scroll_name.png	至尊成就
+5	3	occupy_mine	占矿为王	occupy_mine_1.png	occupy_mine_2.png	occupy_mine_3.png	0	90		180		270		user.cash:100	user.cash:150	user.cash:200	占领金矿90次	占领金矿180次	占领金矿270次	0	occupy_mine_name.png	至尊成就

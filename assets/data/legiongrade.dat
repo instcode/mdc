@@ -1,0 +1,9 @@
+军衔Id	军衔	升级所需经验	战斗扣除体力	初始迁徙次数	军衔说明	军衔图标资源路径	军衔名称资源路径
+Id	Grade	Xp	BattleEnergy	BattleInitAct	MilitaryInfo	MilitaryImgRes	MilitaryNameRes
+1	平民	500	1	5	三国时代“矮穷挫”的统称，他们的可怕之处在于逆袭！	uires/ui_2nd/com/panel/legion/military_icon_1.png	uires/ui_2nd/com/panel/legion/military_name_1.png
+2	新兵	1000	2	10	新兵有着一人之上万人之下的权势，所以别拿新兵不当兵！	uires/ui_2nd/com/panel/legion/military_icon_2.png	uires/ui_2nd/com/panel/legion/military_name_2.png
+3	校尉	2000	3	20	周瑜穿越后怀念他大学时学校门卫，于是封其手下为校卫。	uires/ui_2nd/com/panel/legion/military_icon_3.png	uires/ui_2nd/com/panel/legion/military_name_3.png
+4	督军	5000	4	20	督军起初为嘟军！此封号来源于一位战场上嘟囔不停的领军。	uires/ui_2nd/com/panel/legion/military_icon_4.png	uires/ui_2nd/com/panel/legion/military_name_4.png
+5	副将	10000	5	20	有人说副将是福将，也有人说是负将，完全因人品而议。	uires/ui_2nd/com/panel/legion/military_icon_5.png	uires/ui_2nd/com/panel/legion/military_name_5.png
+6	将军	50000	6	20	拿破仑说他们各个都是好士兵！	uires/ui_2nd/com/panel/legion/military_icon_6.png	uires/ui_2nd/com/panel/legion/military_name_6.png
+7	元帅	100000	7	20	逆袭的楷模、“矮穷挫”的呕像，暴发户的统称。	uires/ui_2nd/com/panel/legion/military_icon_7.png	uires/ui_2nd/com/panel/legion/military_name_7.png

@@ -1,0 +1,9 @@
+排名	奖励1	奖励2	奖励3	奖励4
+HurtRank	Award1	Award2	Award3	Award4
+1	material.19:30	material.82:3		
+2	material.19:20	material.82:2		
+11	material.19:15	material.82:1		
+21	material.19:10	material.82:1		
+51	material.19:5	material.82:1		
+kill	user.gold:1000000	material.82:3		
+dragonbox	material.82:2	material.30:1	user.gold:200000	

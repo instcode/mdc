@@ -1,0 +1,179 @@
+关卡编号	索引	掉落类型	奖励（普通)	是否随机	随机权重	奖励（困难）	是否随机	随机权重	奖励（地狱）	是否随机	随机权重
+Id	Index	Type	Award1	Random1	Weight1	Award2	Random2	Weight2	Award3	Random3	Weight3
+1004506	1	0	user.fame:300	0							
+1004506	2	0	material.83:1	0							
+1004506	3	0	material.21:1	0							
+1007304	1	0	user.fame:400	0							
+1007304	2	0	material.83:1	0							
+1007304	3	0	material.21:2	0							
+1008603	1	0	user.fame:500	0							
+1008603	2	0	material.83:1	0							
+1008603	3	0	material.21:3	0							
+1011203	1	0	user.fame:600	0							
+1011203	2	0	material.83:1	0							
+1011203	3	0	material.21:4	0							
+1013403	1	0	user.fame:700	0							
+1013403	2	0	material.83:1	0							
+1013403	3	0	material.21:5	0							
+1015603	1	0	user.fame:800	0							
+1015603	2	0	material.83:1	0							
+1015603	3	0	material.21:6	0							
+1016904	1	0	user.fame:900	0							
+1016904	2	0	material.83:1	0							
+1016904	3	0	material.21:7	0							
+1019403	1	0	user.fame:1000	0							
+1019403	2	0	material.83:1	0							
+1019403	3	0	material.21:8	0							
+1021403	1	0	user.fame:1100	0							
+1021403	2	0	material.83:1	0							
+1021403	3	0	material.21:9	0							
+1003401	1	0	material.4009:2	0							
+1003401	2	0	material.3306:1	0							
+1003401	3	0	material.104:1	1	50						
+1003401	4	0		1	50						
+1003402	1	0	material.4009:2	0							
+1003402	2	0	material.3306:1	0							
+1003402	3	0	material.109:1	0	50						
+1003402	4	0		1	50						
+1004801	1	0	material.4009:2	0							
+1004801	2	0	material.3306:1	0							
+1004801	3	0	material.100:1	1	50						
+1004801	4	0		1	50						
+1004802	1	0	material.4009:2	0							
+1004802	2	0	material.3306:1	0							
+1004802	3	0	material.108:1	1	50						
+1004802	4	0		1	50						
+1007401	1	0	material.4009:2	0							
+1007401	2	0	material.3306:1	0							
+1007401	3	0	material.106:1	1	50						
+1007401	4	0		1	50						
+1007402	1	0	material.4009:2	0							
+1007402	2	0	material.3306:1	0							
+1007402	3	0	material.113:1	1	50						
+1007402	4	0		1	50						
+1008901	1	0	material.4009:2	0							
+1008901	2	0	material.3306:1	0							
+1008901	3	0	material.101:1	1	50						
+1008901	4	0		1	50						
+1008902	1	0	material.4009:2	0							
+1008902	2	0	material.3306:1	0							
+1008902	3	0	material.110:1	1	50						
+1008902	4	0		1	50						
+1010501	1	0	material.4009:2	0							
+1010501	2	0	material.3306:1	0							
+1010501	3	0	material.105:1	1	50						
+1010501	4	0		1	50						
+1010502	1	0	material.4009:2	0							
+1010502	2	0	material.3306:1	0							
+1010502	3	0	material.112:1	1	50						
+1010502	4	0		1	50						
+1010503	1	0	material.4009:2	0							
+1010503	2	0	material.3306:1	0							
+1010503	3	0	material.111:1	1	50						
+1010503	4	0		1	50						
+1013103	1	0	material.4009:2	0							
+1013103	2	0	material.3307:1	0							
+1013103	3	0	material.104:2	1	50						
+1013103	4	0		1	50						
+1013104	1	0	material.4009:2	0							
+1013104	2	0	material.3307:1	0							
+1013104	3	0	material.109:2	1	50						
+1013104	4	0		1	50						
+1014901	1	0	material.4009:2	0							
+1014901	2	0	material.3307:1	0							
+1014901	3	0	material.100:2	1	50						
+1014901	4	0		1	50						
+1014902	1	0	material.4009:2	0							
+1014902	2	0	material.3307:1	0							
+1014902	3	0	material.108:2	1	50						
+1014902	4			0							
+1017601	1	0	material.4009:2	0							
+1017601	2	0	material.3307:1	0							
+1017601	3	0	material.106:2	1	50						
+1017601	4	0		1	50						
+1017602	1	0	material.4009:2	0							
+1017602	2	0	material.3307:1	0							
+1017602	3	0	material.113:2	1	50						
+1017602	4	0		1	50						
+1019001	1	0	material.4009:2	0							
+1019001	2	0	material.3307:1	0							
+1019001	3	0	material.101:2	1	50						
+1019001	4	0		1	50						
+1019002	1	0	material.4009:2	0							
+1019002	2	0	material.3307:1	0							
+1019002	3	0	material.110:2	1	50						
+1019002	4	0		1	50						
+1020901	1	0	material.4009:2	0							
+1020901	2	0	material.3307:1	0							
+1020901	3	0	material.105:2	1	50						
+1020901	4	0		1	50						
+1020902	1	0	material.4009:2	0							
+1020902	2	0	material.3307:1	0							
+1020902	3	0	material.112:2	1	50						
+1020902	4	0		1	50						
+1020903	1	0	material.4009:2	0							
+1020903	2	0	material.3307:1	0							
+1020903	3	0	material.111:2	1	50						
+1020903	4	0		1	50						
+1020904	1	0	material.4009:2	0							
+1020904	2	0	material.3307:1	0							
+1020904	3	0	material.103:2	1	50						
+1020904	4	0		1	50						
+1020905	1	0	material.4009:2	0							
+1020905	2	0	material.3307:1	0							
+1020905	3	0	material.102:2	1	50						
+1020905	4	0		1	50						
+1001	1	0	material.1002:1	0							
+1001	2	0	user.gold:200	0							
+1001	3	0	material.21:1	0							
+1002	1	0	material.1003:1	0							
+1002	2	0	user.gold:300	0							
+1002	3	0	material.21:1	0							
+2001	1	0	material.1004:1	0							
+2001	2	0	user.gold:400	0							
+2001	3	0	material.21:1	0							
+3001	1	0	material.1005:1	0							
+3001	2	0	user.gold:500	0							
+3001	3	0	material.21:1	0							
+4001	1	0	material.1006:1	0							
+4001	2	0	user.gold:600	0							
+4001	3	0	material.21:1	0							
+5001	1	0	material.1007:1	0							
+5001	2	0	user.gold:700	0							
+5001	3	0	material.21:1	0							
+5002	1	0	material.1008:1	0							
+5002	2	0	user.gold:800	0							
+5002	3	0	material.21:1	0							
+6001	1	0	material.1009:1	0							
+6001	2	0	user.gold:900	0							
+6001	3	0	material.21:1	0							
+6002	1	0	material.1010:1	0							
+6002	2	0	user.gold:1000	0							
+6002	3	0	material.21:1	0							
+7001	1	0	material.1011:1	0							
+7001	2	0	user.gold:1100	0							
+7001	3	0	material.21:1	0							
+7002	1	0	material.1012:1	0							
+7002	2	0	user.gold:1200	0							
+7002	3	0	material.21:1	0							
+8001	1	0	material.1013:1	0							
+8001	2	0	user.gold:1300	0							
+8001	3	0	material.21:1	0							
+8002	1	0	material.1014:1	0							
+8002	2	0	user.gold:1400	0							
+8002	3	0	material.21:1	0							
+9001	1	0	material.1015:1	0							
+9001	2	0	user.gold:1500	0							
+9001	3	0	material.21:1	0							
+9002	1	0	material.1016:1	0							
+9002	2	0	user.gold:1600	0							
+9002	3	0	material.21:1	0							
+10001	1	0	material.1017:1	0							
+10001	2	0	user.gold:1700	0							
+10001	3	0	material.21:1	0							
+10002	1	0	material.1018:1	0							
+10002	2	0	user.gold:1800	0							
+10002	3	0	material.21:1	0							
+11001	1	0	material.1019:1	0							
+11001	2	0	user.gold:1900	0							
+11001	3	0	material.21:1	0							

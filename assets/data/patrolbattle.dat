@@ -1,0 +1,7 @@
+矿的id	名称	主怪	武将ID	战斗背景	位置0	位置1	位置2	位置3	位置4	位置5	位置6	位置7	位置8	成功奖励1	成功奖励2	成功奖励3	成功奖励4	成功奖励5	士气
+Id	Name	Boss	RoleId	Background	Pos0	Pos1	Pos2	Pos3	Pos4	Pos5	Pos6	Pos7	Pos8	Award1	Award2	Award3	Award4	Award5	InitPower
+1	关羽	356000	94	1	356000	0	0	356001	356002	0	356003	0	0	user.gold:500000	user.cash:100	material.19:10	material.82:1		200
+2	吕布	356100	98	1	356103	356100	356104	0	356101	356106	0	356102	356105	user.gold:1000000	user.cash:150	material.19:10	material.82:1		250
+3	诸葛亮	356200	99	1	356201	356203	0	356200	0	356202	356204	356205	356206	user.gold:1500000	user.cash:200	material.3309:2	material.82:1		300
+4	鲁肃	356300	89	1	356301	356300	356303	356302	356304	356305	0	356306	0	user.gold:2000000	user.cash:250	material.3309:2	material.82:1		400
+5	夏侯渊	356404	105	1	356401	356402	356406	356404	356405	356400	356403	0	0	user.gold:3000000	user.cash:300	material.3309:2	material.82:1		500

@@ -1,0 +1,14 @@
+编号	兵种转职等级	目标人数	属性	属性加成	兵法描述
+Id	SoldierLv	People	Attr	AttrAdd	Desc
+1	2	3	attack	200	进阶二级兵种
+2	2	7	health	200	进阶二级兵种
+3	3	2	attack	800	进阶三级兵种
+4	3	5	mdefence	800	进阶三级兵种
+5	3	7	defence	800	进阶三级兵种
+6	4	2	attack	2000	进阶四级兵种
+7	4	5	mdefence	2000	进阶四级兵种
+8	4	7	defence	2000	进阶四级兵种
+9	5	1	attack	4000	进阶五级兵种
+10	5	3	mdefence	4000	进阶五级兵种
+11	5	5	defence	4000	进阶五级兵种
+12	5	7	health	4000	进阶五级兵种

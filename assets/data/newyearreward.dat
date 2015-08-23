@@ -1,0 +1,7 @@
+编号	累计天数	奖励	描述
+Id	Day	Award	Desc
+1	1	material.5001:1	累计第一天
+2	3	material.5001:2	累计第三天
+3	5	material.5001:3	累计第五天
+4	6	material.5001:3	累计第六天
+5	7	material.5001:3	累计第七天

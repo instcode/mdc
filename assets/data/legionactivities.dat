@@ -1,0 +1,5 @@
+排序	活动编号	活动名称	奖励展示1	奖励展示2	奖励展示3	开启所需军团等级	活动开放所需玩家等级	挑战次数	活动标题	活动图标	描述1	描述2
+Order	Key	Name	Award1	Award2	Award3	LegionLevelLimit	LevelLimit	Time	Title	Icon	Des1	Des2
+1	battle	皇城争霸				1	1	0	legion/legion_imperial_txt.png	legion/legionwar_icon.png	群雄逐鹿	最强军团称霸皇城
+2	pray	军团祈福				1	1	5	legion/legion_blessing_txt.png	legion/pray.png	每日祈福	可能获得五级宝石
+3	kill	过关斩将				1	1	1	activity/killrole_txt.png	activity/killrole_icon.png	过五关斩六将	斩获各种转职材料

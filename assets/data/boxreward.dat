@@ -1,0 +1,36 @@
+副本id	奖励1	奖励2	奖励3	奖励4	权重1	奖励5	奖励6	奖励7	奖励8	权重2	奖励9	奖励10	奖励11	奖励12	权重3	奖励13	奖励14	奖励15	奖励16	权重4	奖励17	奖励18	奖励19	奖励20	权重5
+Id	Award1	Award2	Award3	Award4	Weight1	Award5	Award6	Award7	Award8	Weight2	Award9	Award10	Award11	Award12	Weight3	Award13	Award14	Award15	Award16	Weight4	Award17	Award18	Award19	Award20	Weight5
+3	equip.weapon.1:2	equip.armor.1:2	equip.accessory.1:2	material.26:8	1					0					0					0					0
+10	material.1002:9	material.1102:30	material.1202:30	material.1302:30	1					0					0					0					0
+15	material.1003:9	material.1103:30	material.1203:30	material.1303:30	1					0					0					0					0
+21	user.food:300	user.cash:50	material.83:20	material.30:2	1					0					0					0					0
+23	user.food:300	user.cash:50	material.26:4	material.30:2	1					0					0					0					0
+25	user.food:300	user.cash:50	material.26:4	material.30:2	1					0					0					0					0
+38	user.food:300	user.cash:50	material.21:10	material.30:2	1					0					0					0					0
+45	user.food:1000	user.cash:50	user.gold:200000	material.82:1	1					0					0					0					0
+52	user.food:1000	user.cash:50	user.gold:200000	material.82:1	1					0					0					0					0
+66	user.food:1000	user.cash:50	user.gold:200000	material.82:1	1					0					0					0					0
+74	user.food:1000	user.cash:50	user.gold:200000	material.82:1	1					0					0					0					0
+83	user.gold:200000	user.cash:50	material.82:2	material.30:1	1					0					0					0					0
+95	user.gold:200000	user.cash:50	material.82:2	material.30:1	1					0					0					0					0
+104	user.gold:200000	user.cash:50	material.82:2	material.30:1	1					0					0					0					0
+114	user.gold:200000	user.cash:50	material.82:2	material.30:1	1					0					0					0					0
+124	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+136	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+147	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+153	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+169	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+176	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+185	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+192	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+208	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+215	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+1005303	user.gold:200000	user.cash:50	material.21:10	material.26:4	1					0					0					0					0
+1007205	user.gold:200000	user.cash:50	user.food:1000	material.82:2	1					0					0					0					0
+1009605	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+1010305	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+1012806	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+1015205	user.gold:200000	user.cash:50	material.82:2	material.30:2	1					0					0					0					0
+1016305	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+1018806	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0
+1021205	user.gold:200000	user.cash:50	material.82:2	material.30:3	1					0					0					0					0

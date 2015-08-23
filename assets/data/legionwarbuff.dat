@@ -1,0 +1,5 @@
+官职	攻击加成百分比	兵力加成百分比	武防加成百分比	谋防加成百分比	效果持续时间（小时）	说明
+Official	Attack	Health	Defence	Mdefence	Duration	Note
+emperor	20	20	0	0	167	皇帝
+general	20	0	0	0	167	将军
+premier	0	20	0	0	167	丞相

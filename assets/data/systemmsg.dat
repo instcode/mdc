@@ -1,0 +1,25 @@
+关键字	越语
+Id	Chstr
+makeEquip	Chúc mừng người chơi (*) thành công đả tháo thần khí (*)
+soulEater	Chúc mừng võ tướng (*) của người chơi (*) luyện hồn đạt đến {*)
+transferd	Chúc mừng võ tướng (*) của người chơi (*) chuyển chức thành (*)
+passTower	Chúc mừng người chơi (*) thành công thông quan Thiên trọng lâu tầng (*)
+getExRole	Chúc mừng người chơi (*), nhận thần tướng (*)
+theTopOne	Chúc mừng người chơi (*) hôm nay đánh bại quần hùng tại Lôi đài, trở thành Bá chủ lôi đài.
+superRole	Chúc mừng người chơi (*) đạt được thái tướng (*) tại Chiêu hiền quán
+tavernGet	Chúc mừng người chơi (*) đạt được hồng tướng (*) tại Chiêu hiền quán
+circleGet	Chúc mừng người chơi (*) đạt  được (*) cái (*) tại vòng xoay may mắn 
+groupBuying	(*) cái (*) mua theo nhóm đã đạt 10 người, các người chơi tham gia mua theo nhóm đều sẽ nhân được NB khi tổng kết. Số lượng người càng nhiều thì NB trả lại càng nhiều, mau đến thương thành tham gia nhé 
+seckilling	Chúc mừng (*) đã nhanh tay lẹ mắt trở thành 1 trong những người may mắn của lần miễu sát này, đạt được (*) cái (*)
+payCeremonyGet	Chúc mừng người chơi (*) mở bảo rương hào lễ đạt được (*) cái (*), mau đến tham gia ngay đi, người may mắn kế tiếp là bạn đấy 
+rankTopOne	Bá chủ (*) đã có mặt, bá khí ngoại lộ tẩu lộ hữu phong 
+rankTopTwo	Đô đốc (*) đã có mặt, dũng mãnh vô địch phúng sinh thủy khởi
+rankTopThree	Thái úy (*) đã có mặt, kiêu dũng thiện chiến nhất vãng vô tiền 
+beatTopOne	Chúc mừng người chơi (*) khiêu chiến thành công, tăng cấp Bá chủ
+beatTopTwo	Chúc mừng người chơi (*) khiêu chiến thành công, tăng cấp Đô đốc
+beatTopThree	Chúc mừng người chơi (*) khiêu chiến thành công, tăng cấp Thái úy
+borrowArrowShot	Chúc mừng người chơi (*) đã đạt được Điểm (*) tại sự kiện thảo thuyền tá tiễn, mau đến tham gia ngay đi, người may mắn kế tiếp là bạn đấy
+beforeWorldBoss	15' nữa Boss xuất hiện, Chủ Công hãy chuẩn bị
+openWorldBoss	Boss đã xuất hiện, tham gia đánh Boss nhận quà ngay
+beforeLegionWar	Hoàng Thành Tranh Bá 15 phút nữa bắt đầu, Chủ Công hãy chuẩn bị
+openLegionWar	Hoàng Thành Tranh Bá đã mở, tham gia Cuộc Chiến Vương Quyền nhận quà ngay

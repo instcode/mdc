@@ -1,0 +1,5 @@
+战斗结果	描述	额外奖励
+Result	Desc	Award1
+1	胜	user.card_score:5
+0	平	user.card_score:2
+-1	败	user.card_score:1

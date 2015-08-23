@@ -1,0 +1,10 @@
+星星数量	奖励	第一次基础概率	基础概率	购买一次增加概率	转到8星额外奖励
+Star	Award1	FirstRate	NormalRate	AddRate	Award2
+1	user.gold:200000	100	100	0	
+2	material.3202:1	100	60	10	
+3	material.3402:1	100	40	10	
+4	material.113:10	100	20	10	
+5	material.3203:1	100	10	10	
+6	material.3403:1	0	10	10	
+7	material.82:1	0	5	10	
+8	material.3404:1	0	5	5	gem.904:1

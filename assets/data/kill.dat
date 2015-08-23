@@ -1,0 +1,12 @@
+编号	怪物编号	消耗	奖励1	权重1	奖励2	权重2	奖励3	权重3	素材
+Id	BossId	Award0	Award1	Weight1	Award2	Weight2	Award3	Weight3	URL
+1	47	user.food:-20							hero/dao_big.png
+2	72	user.food:-20							hero/yanliang_big.png
+3	68	user.food:-20							hero/wenchou_big.png
+4	82	user.food:-30	material.21:4	30	material.21:6	40	material.21:8	30	hero/zhurongfuren_big.png
+5	77	user.food:-20							hero/xunyou_big.png
+6	94	user.food:-20							hero/guanyu_big.png
+7	99	user.food:-20							hero/zhugeliang_big.png
+8	96	user.food:-30	material.26:4	30	material.26:6	40	material.26:8	30	hero/zhaoyun_big.png
+9	98	user.food:-20							hero/lvbu_big.png
+10	119	user.food:-50	user.soul:400	30	user.soul:600	40	user.soul:800	30	hero/zuoci_big.png

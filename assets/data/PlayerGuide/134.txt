@@ -1,0 +1,9 @@
+[开始录入命令]
+BEGIN,
+[主角说话]
+TALK,5,1,0,0,PalyerGuide33,TALK,
+[主角说话]
+TALK,1,0,0,0,PalyerGuide34,TALK,
+[进入布阵]
+CLICK,772,54,120,80,180,30016,0,1,0,1,0,
+END,

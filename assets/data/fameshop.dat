@@ -1,0 +1,185 @@
+编号	奖励	购买价格	类型	权重
+Id	Award1	Price	Type	Weight
+1	material.1102:5	1	1	1
+2	material.1103:5	1	1	1
+3	material.1202:5	1	1	1
+4	material.1203:5	1	1	1
+5	material.1302:5	1	1	1
+6	material.1303:5	1	1	1
+1	material.1102:10	1	1	1
+2	material.1103:10	1	1	1
+3	material.1202:10	1	1	1
+4	material.1203:10	1	1	1
+5	material.1302:10	1	1	1
+6	material.1303:10	1	1	1
+7	material.1104:5	1	2	1
+8	material.1105:5	1	2	1
+9	material.1106:5	1	2	1
+10	material.1204:5	1	2	1
+11	material.1205:5	1	2	1
+12	material.1206:5	1	2	1
+13	material.1304:5	1	2	1
+14	material.1305:5	1	2	1
+15	material.1306:5	1	2	1
+7	material.1104:10	1	2	1
+8	material.1105:10	1	2	1
+9	material.1106:10	1	2	1
+10	material.1204:10	1	2	1
+11	material.1205:10	1	2	1
+12	material.1206:10	1	2	1
+13	material.1304:10	1	2	1
+14	material.1305:10	1	2	1
+15	material.1306:10	1	2	1
+16	material.1107:5		3	
+17	material.1108:5		3	
+18	material.1109:5		3	
+19	material.1110:5		3	
+20	material.1111:5		3	
+21	material.1112:5		3	
+22	material.1207:5		3	
+23	material.1208:5		3	
+24	material.1209:5		3	
+25	material.1210:5		3	
+26	material.1211:5		3	
+27	material.1212:5		3	
+28	material.1307:5		3	
+29	material.1308:5		3	
+30	material.1309:5		3	
+31	material.1310:5		3	
+32	material.1311:5		3	
+33	material.1312:5		3	
+16	material.1107:10		3	
+17	material.1108:10		3	
+18	material.1109:10		3	
+19	material.1110:10		3	
+20	material.1111:10		3	
+21	material.1112:10		3	
+22	material.1207:10		3	
+23	material.1208:10		3	
+24	material.1209:10		3	
+25	material.1210:10		3	
+26	material.1211:10		3	
+27	material.1212:10		3	
+28	material.1307:10		3	
+29	material.1308:10		3	
+30	material.1309:10		3	
+31	material.1310:10		3	
+32	material.1311:10		3	
+33	material.1312:10		3	
+34	material.1113:10		4	
+35	material.1114:10		4	
+36	material.1115:10		4	
+37	material.1116:10		4	
+38	material.1117:10		4	
+39	material.1213:10		4	
+40	material.1214:10		4	
+41	material.1215:10		4	
+42	material.1216:10		4	
+43	material.1217:10		4	
+44	material.1313:10		4	
+45	material.1314:10		4	
+46	material.1315:10		4	
+47	material.1316:10		4	
+48	material.1317:10		4	
+34	material.1113:5		4	
+35	material.1114:5		4	
+36	material.1115:5		4	
+37	material.1116:5		4	
+38	material.1117:5		4	
+39	material.1213:5		4	
+40	material.1214:5		4	
+41	material.1215:5		4	
+42	material.1216:5		4	
+43	material.1217:5		4	
+44	material.1313:5		4	
+45	material.1314:5		4	
+46	material.1315:5		4	
+47	material.1316:5		4	
+48	material.1317:5		4	
+49	material.82:5		5	
+50	material.30:5		5	
+51	material.37:6		5	
+52	material.19:50		5	
+49	material.82:10		5	
+50	material.30:10		5	
+51	material.37:12		5	
+52	material.19:100		5	
+53	material.52:5		5	
+54	material.53:5		5	
+55	material.57:5		5	
+53	material.52:10		5	
+54	material.53:10		5	
+55	material.57:10		5	
+53	material.52:20		5	
+54	material.53:20		5	
+55	material.57:20		5	
+66				
+67				
+68				
+69				
+70				
+71				
+72				
+73				
+74				
+75				
+76				
+77				
+78				
+79				
+80				
+81				
+82				
+83				
+84				
+85				
+86				
+87				
+88				
+89				
+90				
+91				
+92				
+93				
+94				
+95				
+96				
+97				
+98				
+99				
+100				
+101				
+102				
+103				
+104				
+105				
+106				
+107				
+108				
+109				
+110				
+111				
+112				
+113				
+114				
+115				
+116				
+117				
+118				
+119				
+120				
+121				
+122				
+123				
+124				
+125				
+126				
+127				
+128				
+129				
+130				
+131				
+132				
+133				
+134				
+135				

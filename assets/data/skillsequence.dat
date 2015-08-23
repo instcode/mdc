@@ -1,0 +1,5 @@
+技能释放槽位	开放槽位需要的君主等级	开放槽位需要的VIP等级	开启槽位的VIP价格						
+Slot	OpenLevel	OpenVIPLevel	OpenVIPPrice						
+2	25	0	50						
+3	45	0	100						
+4	85	0	200						

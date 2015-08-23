@@ -1,0 +1,5 @@
+编号	时间需求(距离建号时间/秒)	神将等级需求	神将转职等级需求	奖励1	奖励2	奖励3	奖励4	描述
+Id	AccountCreateTimePass	RoleLevelLimit	SoldierLevelLimit	Award1	Award2	Award3	Award4	Des
+1	172800	26	0	user.gold:200000	material.21:10	material.19:5	user.cash:50	白银礼包
+2	345600	32	0	material.3203:2	material.26:5	material.19:10	user.cash:100	黄金礼包
+3	777600	0	3	equip.weapon.10:1	equip.armor.10:1	equip.accessory.10:1	user.cash:300	钻石礼包

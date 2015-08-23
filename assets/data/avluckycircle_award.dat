@@ -1,0 +1,6 @@
+编号	奖励	颜色	需要对应颜色格子的个数
+Id	Award1	Color	Count
+1	material.82:2	green	5
+2	material.102:5	orange	10
+3	material.107:10	purple	20
+4	material.103:15	blue	30

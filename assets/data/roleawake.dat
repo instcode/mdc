@@ -1,0 +1,10 @@
+觉醒ID	觉醒等级	觉醒消耗材料	觉醒消耗材料数量	觉醒需要兵种等级	开放技能ID	加属性1	加属性2	加属性3	加属性4
+Id	Level	MaterialId	MaterialNum	SoldierLevel	SkillId	Attribute1	Attribute2	Attribute3	Attribute4
+94	1	82	99	3	1004	attack:2500	fortitude:500	block:500	health:5000
+96	1	82	99	3	1005	attack:5000	critdamage:500	fortitude:500	health:2500
+98	1	82	99	3	1001	attack:5000	unblock:500	miss:500	health:2500
+99	1	82	99	3	1002	attack:5000	hit:500	unblock:500	health:2500
+102	1	82	99	3	1003	attack:5000	hit:500	fortitude:500	health:2500
+119	1	82	99	3	1006	attack:5000	hit:500	critdamage:500	health:2500
+120	1	82	99	3	1007	attack:5000	hit:500	block:500	health:2500
+121	1	82	99	3	1008	attack:5000	hit:500	critdamage:500	health:2500

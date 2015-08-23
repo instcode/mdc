@@ -1,0 +1,4 @@
+编号	名字	升级所需材料（id）	升级材料购买ID	获取额外加成所需等级	道具等级达到7时额外获取的物理防御	道具等级达到7时额外获取的魔法防御	基础攻击	基础物理防御	基础魔法防御	基础血量	攻击成长系数	防御成长系数	魔防成长系数	血量成长系数
+Id	Name	Material	ShopId	LevelLimit	ExtraDefence	ExtraMagicDefence	Attack	Defence	MagicDefence	Health	AttackFactor	DefenceFactor	MagicDefenceFactor	HealthFactor
+seat	马鞍	5203	187	10	0	0	1200	800	800	1000	1150	1080	1080	1090
+whip	马鞭	5202	186	10	0	0	1200	800	800	1000	1150	1080	1080	1090

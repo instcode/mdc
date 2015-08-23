@@ -1,0 +1,9 @@
+编号	区段初始元宝数	区段结束元宝数	奖励1	奖励2	奖励3	奖励4
+Id	CashBegin	CashEnd	Award1	Award2	Award3	Award4
+1	500	999	user.food:2000	material.19:50	user.gold:500000	user.food:1000
+2	1000	1999	material.26:25	material.21:20		
+3	2000	4999	user.cash:1000	equip.weapon.6:1	equip.armor.6:1	equip.accessory.6:1
+4	5000	9999	user.cash:2500	material.82:2		
+5	10000	24999	material.3415:5	gem.905:1		
+6	25000	49999	equip.weapon.10:1	equip.armor.10:1	equip.accessory.10:1	
+7	50000	9999999	card.120:1	material.82:99		

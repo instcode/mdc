@@ -1,0 +1,11 @@
+编号	掉落类型	描述	资源	资源2	开放等级
+Id	Drop	Desc	Url	Icon	Level
+1	Sign	累积签到可获得大量彩将碎片	uires/ui_2nd/com/panel/chip/sign.png	uires/ui_2nd/image/hero/luoshen_icon.png	5
+2	BlackShop	可用多种货币兑换得到所有彩将碎片	uires/ui_2nd/com/panel/chip/heidian.png	uires/ui_2nd/image/item/shuaxinling.png	6
+3	God	累积副本星星数量可兑换彩将碎片	uires/ui_2nd/com/panel/chip/god.png	uires/ui_2nd/image/hero/lvbu_icon.png	13
+4	Altar	每个精英武将均会掉落对应彩将碎片	uires/ui_2nd/com/panel/chip/altar.png	uires/ui_2nd/image/hero/zhaoyun_icon.png	17
+5	LuckyCircle	使用积分可快速获得所有彩将碎片	uires/ui_2nd/com/panel/chip/lucky_circle.png	uires/ui_2nd/image/item/lucky_circle.png	20
+6	LegionShop	军团贡献可兑换左慈等彩将碎片	uires/ui_2nd/com/panel/chip/legion_shop.png	uires/ui_2nd/image/item/science_icon.png	21
+7	Wheel	每日均可获得大量貂蝉碎片	uires/ui_2nd/com/panel/chip/wheel.png	uires/ui_2nd/image/item/wheel.png	31
+8	PawnShop	可用古币兑换童渊等彩将碎片	uires/ui_2nd/com/panel/chip/pawn_shop.png	uires/ui_2nd/image/item/coin_icon.png	35
+9	PvpShop	荣誉令牌可兑换华佗等彩将碎片	uires/ui_2nd/com/panel/chip/pvp_shop.png	uires/ui_2nd/com/panel/pvp/token.png	40

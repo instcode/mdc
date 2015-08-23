@@ -1,0 +1,6 @@
+分数	金币	奖励1	奖励2	奖励3	军团贡献	军团经验
+Score	Gold	Award1	Award2	Award3	LegionHonor	LegionExp
+30	10000	material.83:1	material.40:1	material.42:1	30	30
+60	15000	material.83:1	material.41:1	material.43:1	30	30
+90	20000	material.83:1	user.soul:50	material.4008:1	30	30
+120	30000	user.cash:20	user.soul:50	material.4008:2	30	30

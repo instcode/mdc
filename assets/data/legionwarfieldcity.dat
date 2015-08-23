@@ -1,0 +1,9 @@
+城池Id	城池名称	是否有积分Boss怪	积分Boss怪产出时间间隔(秒)	城池图标	附近城市	到达路径	描述	城池内部小图标
+Id	Name	ScoreBoss	Time	Url	City	Path	Desc	CityIcon
+1	成都	0	0	battleworld/fieldcity_2.png	4.6	4.6	基地每隔一段时间就会产出体力，身处基地中时对敌人造成的伤害提高20%	uires\ui_2nd\com\panel\army_war\chengdu_img.png
+2	许昌	0	0	battleworld/fieldcity_1.png	4.5	4.5	基地每隔一段时间就会产出体力，身处基地中时对敌人造成的伤害提高20%	uires\ui_2nd\com\panel\army_war\xuchang_img.png
+3	江陵	0	0	battleworld/fieldcity_3.png	5.6	5.6	基地每隔一段时间就会产出体力，身处基地中时对敌人造成的伤害提高20%	uires\ui_2nd\com\panel\army_war\jiangling_img.png
+4	汉中	0	0	battleworld/fieldcity_4.png	1.2.7	1.2.7		uires\ui_2nd\com\panel\army_war\hanzhong_img.png
+5	赤壁	0	0	battleworld/fieldcity_6.png	2.3.7	2.3.7		uires\ui_2nd\com\panel\army_war\chibi_img.png
+6	荆州	0	0	battleworld/fieldcity_5.png	1.3.7	1.3.7		uires\ui_2nd\com\panel\army_war\bingzhou_img.png
+7	洛阳	1	300	battleworld/fieldcity_7.png	4.5.6	4.5.6		uires\ui_2nd\com\panel\army_war\luoyang_img.png

@@ -1,0 +1,8 @@
+活动开放天数	目标类型		活动目标1	目标参数1	目标1达标奖励		活动目标2	目标参数2	目标2达标奖励		活动目标3	目标参数3	目标3达标奖励		vip冲级目标	vip达标奖励
+Day	TargetType		Target1	Param1	Award1		Target2	Param2	Award2		Target3	Param3	Award3		VipTarget	Award0
+1	level		13		user.gold:1000000	material.101:5	23		user.food:2000		29		material.102:10		0	user.food:10000
+2	role_card		2		material.19:10		3		material.19:30		5		material.102:10		0	material.4408:1
+3	transfer		2	2	material.21:10		4		material.21:20		6		material.102:15		0	gem.902:3
+4	skill_level		2	6	material.3412:5		4	8	material.3412:10		7	10	material.102:15		0	material.26:10
+5	gem_inlay		10	2	material.3413:1		4	4	material.3413:2		2	6	material.102:15		0	material.3306:10
+6	fight_force		30000		material.3414:1		100000		material.3414:2		180000		material.102:15		0	gem.903:3

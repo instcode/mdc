@@ -1,0 +1,7 @@
+[开始录入命令]
+BEGIN,
+[怪]
+TALK,5,1,0,0,PalyerGuide31,TALK,
+[主角]
+TALK,10,0,0,0,PalyerGuide32,TALK,
+END,

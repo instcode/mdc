@@ -1,0 +1,64 @@
+编号	等级	科技名称	图标	科技效果	科技效果参数	外部描述	本级描述（升级确认界面）	下一级描述（升级确认界面）	升级资源	升级资源ID	升级资源数量	是否世界公告
+Id	Level	Name	TechUrl	Effect	Param	Desc1	Desc2	Desc3	Material	MaterialId	MaterialNum	Noticeable
+1	0	攻击强化	legiontech/attack.png	1	0	提高所有武将武力和谋略	所有武将武力和谋略+0	所有武将武力和谋略+200	order	80	5	0
+1	1	攻击强化	legiontech/attack.png	1	200	所有武将武力和谋略+200	所有武将武力和谋略+200	所有武将武力和谋略+600	order	80	10	0
+1	2	攻击强化	legiontech/attack.png	1	600	所有武将武力和谋略+600	所有武将武力和谋略+600	所有武将武力和谋略+1000	order	80	20	0
+1	3	攻击强化	legiontech/attack.png	1	1000	所有武将武力和谋略+1000	所有武将武力和谋略+1000	所有武将武力和谋略+1600	order	80	40	0
+1	4	攻击强化	legiontech/attack.png	1	1600	所有武将武力和谋略+1600	所有武将武力和谋略+1600	所有武将武力和谋略+2200	order	80	80	0
+1	5	攻击强化	legiontech/attack.png	1	2200	所有武将武力和谋略+2200	所有武将武力和谋略+2200	所有武将武力和谋略+3000	order	80	160	0
+1	6	攻击强化	legiontech/attack.png	1	3000	所有武将武力和谋略+3000	所有武将武力和谋略+3000	所有武将武力和谋略+3800	order	80	320	0
+1	7	攻击强化	legiontech/attack.png	1	3800	所有武将武力和谋略+3800	所有武将武力和谋略+3800	所有武将武力和谋略+4600	order	80	520	1
+1	8	攻击强化	legiontech/attack.png	1	4600	所有武将武力和谋略+4600	所有武将武力和谋略+4600	所有武将武力和谋略+5400	order	80	750	1
+1	9	攻击强化	legiontech/attack.png	1	5400	所有武将武力和谋略+5400	所有武将武力和谋略+5400	所有武将武力和谋略+6400	order	80	1000	1
+1	10	攻击强化	legiontech/attack.png	1	6400	所有武将武力和谋略+6400	所有武将武力和谋略+6400	已升到最高级	order	80	0	0
+2	0	武防强化	legiontech/defence.png	2	0	提高所有武将武防	所有武将武防+0	所有武将武防+200	order	80	5	0
+2	1	武防强化	legiontech/defence.png	2	200	所有武将武防+200	所有武将武防+200	所有武将武防+600	order	80	10	0
+2	2	武防强化	legiontech/defence.png	2	600	所有武将武防+600	所有武将武防+600	所有武将武防+1000	order	80	20	0
+2	3	武防强化	legiontech/defence.png	2	1000	所有武将武防+1000	所有武将武防+1000	所有武将武防+1600	order	80	40	0
+2	4	武防强化	legiontech/defence.png	2	1600	所有武将武防+1600	所有武将武防+1600	所有武将武防+2200	order	80	80	0
+2	5	武防强化	legiontech/defence.png	2	2200	所有武将武防+2200	所有武将武防+2200	所有武将武防+3000	order	80	160	0
+2	6	武防强化	legiontech/defence.png	2	3000	所有武将武防+3000	所有武将武防+3000	所有武将武防+3800	order	80	320	0
+2	7	武防强化	legiontech/defence.png	2	3800	所有武将武防+3800	所有武将武防+3800	所有武将武防+4600	order	80	520	1
+2	8	武防强化	legiontech/defence.png	2	4600	所有武将武防+4600	所有武将武防+4600	所有武将武防+5400	order	80	750	1
+2	9	武防强化	legiontech/defence.png	2	5400	所有武将武防+5400	所有武将武防+5400	所有武将武防+6400	order	80	1000	1
+2	10	武防强化	legiontech/defence.png	2	6400	所有武将武防+6400	所有武将武防+6400	已升到最高级	order	80	0	0
+3	0	谋防强化	legiontech/mdefence.png	3	0	提高所有武将谋防	所有武将谋防+0	所有武将谋防+200	order	80	5	0
+3	1	谋防强化	legiontech/mdefence.png	3	200	所有武将谋防+200	所有武将谋防+200	所有武将谋防+600	order	80	10	0
+3	2	谋防强化	legiontech/mdefence.png	3	600	所有武将谋防+600	所有武将谋防+600	所有武将谋防+1000	order	80	20	0
+3	3	谋防强化	legiontech/mdefence.png	3	1000	所有武将谋防+1000	所有武将谋防+1000	所有武将谋防+1600	order	80	40	0
+3	4	谋防强化	legiontech/mdefence.png	3	1600	所有武将谋防+1600	所有武将谋防+1600	所有武将谋防+2200	order	80	80	0
+3	5	谋防强化	legiontech/mdefence.png	3	2200	所有武将谋防+2200	所有武将谋防+2200	所有武将谋防+3000	order	80	160	0
+3	6	谋防强化	legiontech/mdefence.png	3	3000	所有武将谋防+3000	所有武将谋防+3000	所有武将谋防+3800	order	80	320	0
+3	7	谋防强化	legiontech/mdefence.png	3	3800	所有武将谋防+3800	所有武将谋防+3800	所有武将谋防+4600	order	80	520	1
+3	8	谋防强化	legiontech/mdefence.png	3	4600	所有武将谋防+4600	所有武将谋防+4600	所有武将谋防+5400	order	80	750	1
+3	9	谋防强化	legiontech/mdefence.png	3	5400	所有武将谋防+5400	所有武将谋防+5400	所有武将谋防+6400	order	80	1000	1
+3	10	谋防强化	legiontech/mdefence.png	3	6400	所有武将谋防+6400	所有武将谋防+6400	已升到最高级	order	80	0	0
+4	0	兵力强化	legiontech/health.png	4	0	提高所有武将兵力	所有武将兵力+0	所有武将兵力+200	order	80	5	0
+4	1	兵力强化	legiontech/health.png	4	200	所有武将兵力+200	所有武将兵力+200	所有武将兵力+600	order	80	10	0
+4	2	兵力强化	legiontech/health.png	4	600	所有武将兵力+600	所有武将兵力+600	所有武将兵力+1000	order	80	20	0
+4	3	兵力强化	legiontech/health.png	4	1000	所有武将兵力+1000	所有武将兵力+1000	所有武将兵力+1600	order	80	40	0
+4	4	兵力强化	legiontech/health.png	4	1600	所有武将兵力+1600	所有武将兵力+1600	所有武将兵力+2200	order	80	80	0
+4	5	兵力强化	legiontech/health.png	4	2200	所有武将兵力+2200	所有武将兵力+2200	所有武将兵力+3000	order	80	160	0
+4	6	兵力强化	legiontech/health.png	4	3000	所有武将兵力+3000	所有武将兵力+3000	所有武将兵力+3800	order	80	320	0
+4	7	兵力强化	legiontech/health.png	4	3800	所有武将兵力+3800	所有武将兵力+3800	所有武将兵力+4600	order	80	520	1
+4	8	兵力强化	legiontech/health.png	4	4600	所有武将兵力+4600	所有武将兵力+4600	所有武将兵力+5400	order	80	750	1
+4	9	兵力强化	legiontech/health.png	4	5400	所有武将兵力+5400	所有武将兵力+5400	所有武将兵力+6400	order	80	1000	1
+4	10	兵力强化	legiontech/health.png	4	6400	所有武将兵力+6400	所有武将兵力+6400	已升到最高级	order	80	0	0
+5	0	招兵买马	legiontech/zhaobingmaima.png	5	0	提高皇城争霸体力上限	皇城争霸体力上限+0	皇城争霸体力上限+50	order	80	50	0
+5	1	招兵买马	legiontech/zhaobingmaima.png	5	50	皇城争霸体力上限+50	皇城争霸体力上限+50	皇城争霸体力上限+100	order	80	150	1
+5	2	招兵买马	legiontech/zhaobingmaima.png	5	100	皇城争霸体力上限+100	皇城争霸体力上限+100	皇城争霸体力上限+150	order	80	300	1
+5	3	招兵买马	legiontech/zhaobingmaima.png	5	150	皇城争霸体力上限+150	皇城争霸体力上限+150	已升到最高级	order	80	0	0
+6	0	快马加鞭	legiontech/kuaimajiabian.png	6	0	缩短皇城争霸行动力恢复时间	皇城争霸行动力恢复时间 -0秒	皇城争霸行动力恢复时间 -3秒	order	80	5	0
+6	1	快马加鞭	legiontech/kuaimajiabian.png	6	3	皇城争霸行动力恢复时间 -3秒	皇城争霸行动力恢复时间 -3秒	皇城争霸行动力恢复时间 -6秒	order	80	10	0
+6	2	快马加鞭	legiontech/kuaimajiabian.png	6	6	皇城争霸行动力恢复时间 -6秒	皇城争霸行动力恢复时间 -6秒	皇城争霸行动力恢复时间 -9秒	order	80	20	0
+6	3	快马加鞭	legiontech/kuaimajiabian.png	6	9	皇城争霸行动力恢复时间 -9秒	皇城争霸行动力恢复时间 -9秒	皇城争霸行动力恢复时间 -12秒	order	80	40	0
+6	4	快马加鞭	legiontech/kuaimajiabian.png	6	12	皇城争霸行动力恢复时间 -12秒	皇城争霸行动力恢复时间 -12秒	皇城争霸行动力恢复时间 -15秒	order	80	80	0
+6	5	快马加鞭	legiontech/kuaimajiabian.png	6	15	皇城争霸行动力恢复时间 -15秒	皇城争霸行动力恢复时间 -15秒	皇城争霸行动力恢复时间 -18秒	order	80	160	0
+6	6	快马加鞭	legiontech/kuaimajiabian.png	6	18	皇城争霸行动力恢复时间 -18秒	皇城争霸行动力恢复时间 -18秒	皇城争霸行动力恢复时间 -21秒	order	80	320	0
+6	7	快马加鞭	legiontech/kuaimajiabian.png	6	21	皇城争霸行动力恢复时间 -21秒	皇城争霸行动力恢复时间 -21秒	皇城争霸行动力恢复时间 -24秒	order	80	520	1
+6	8	快马加鞭	legiontech/kuaimajiabian.png	6	24	皇城争霸行动力恢复时间 -24秒	皇城争霸行动力恢复时间 -24秒	皇城争霸行动力恢复时间 -27秒	order	80	750	1
+6	9	快马加鞭	legiontech/kuaimajiabian.png	6	27	皇城争霸行动力恢复时间 -27秒	皇城争霸行动力恢复时间 -27秒	皇城争霸行动力恢复时间 -30秒	order	80	1000	1
+6	10	快马加鞭	legiontech/kuaimajiabian.png	6	30	皇城争霸行动力恢复时间 -30秒	皇城争霸行动力恢复时间 -30秒	已升到最高级	order	80	0	0
+7	0	一掷千金	legiontech/yizhiqianjin.png	7	0	增加每日捐献金币次数	每日捐献金币次数+0	每日捐献金币次数+1	order	80	20	0
+7	1	一掷千金	legiontech/yizhiqianjin.png	7	1	每日捐献金币次数+1	每日捐献金币次数+1	每日捐献金币次数+2	order	80	50	1
+7	2	一掷千金	legiontech/yizhiqianjin.png	7	2	每日捐献金币次数+2	每日捐献金币次数+2	已升至最高级	order	80	0	0

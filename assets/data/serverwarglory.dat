@@ -1,0 +1,9 @@
+编号	称号	排名	每日奖励1	每日奖励2	每日奖励3	称号图标
+Id	glory	Rank	Award1	Award2	Award3	Url
+1	武圣	1	user.token:200	material.3307:12	material.4008:5	uires/ui_2nd/com/panel/pvp/title_1_ico.png
+2	左将军	2	user.token:170	material.3307:10	material.4008:4	uires/ui_2nd/com/panel/pvp/title_2_ico.png
+3	右将军	3	user.token:140	material.3307:9	material.4008:4	uires/ui_2nd/com/panel/pvp/title_3_ico.png
+4	征将军	4	user.token:110	material.3307:8	material.4008:3	uires/ui_2nd/com/panel/pvp/title_4_ico.png
+5	镇将军	9	user.token:90	material.3307:7	material.4008:2	uires/ui_2nd/com/panel/pvp/title_5_ico.png
+6	平将军	17	user.token:70	material.3307:6	material.4008:2	uires/ui_2nd/com/panel/pvp/title_6_ico.png
+7	平民	33	user.token:50	material.3307:5	material.4008:2	uires/ui_2nd/com/panel/pvp/title_7_ico.png

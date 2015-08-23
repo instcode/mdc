@@ -1,0 +1,11 @@
+编号	索引	奖励	是否随机	随机权重	当前开箱次数为X(>0)时必出
+Id	Index	Award1	Random	Weight	Open
+3501	1	user.coin:40	0		
+3501	2	material.21:5	0		
+3501	3	material.26:1	1	1	
+3503	1	user.coin:160	0		
+3503	2	material.21:20	0		
+3503	3	material.26:4	1	2	
+3505	1	user.coin:280	0		
+3505	2	material.21:35	0		
+3505	3	material.26:7	1	2	

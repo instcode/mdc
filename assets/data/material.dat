@@ -1,0 +1,200 @@
+编号	名称	类别	显示颜色	出售价格	是否可购买	图标	描述	是否可使用	是否可出售	是否在背包显示	使用类型	使用效果	合成数量	能否捐献(0=不能,1=普通捐献,2=捐献到军团仓库)	捐献贡献
+Id	Name	Category	Color	Sell	Buyable	Url	Desc	Useable	Sellable	Showable	UseType	UseEffect	MergeNum	Donate	LegionHonor
+19	技能书	other	purple	0	1	item/item19.png	武将升级技能所需物品，可通过技能残卷合成获得	0	0	1		0	0	0	0
+20	洗髓丹	other	purple	0	1	item/item20.png	提高武将基础属性，『勇闯重楼』中获得	0	0	1		0	0	0	0
+21	一级培养丹	other	purple	0	0	item/item21.png	提高武将成长值所需的物品	1	0	1	pill	22	4	0	0
+22	二级培养丹	other	purple	0	0	item/item22.png	提高武将成长值所需的物品，可用一级培养丹合成	1	0	1	pill	23	4	0	0
+23	三级培养丹	other	purple	0	0	item/item23.png	提高武将成长值所需的物品，可用二级培养丹合成	1	0	1	pill	24	4	0	0
+24	四级培养丹	other	purple	0	0	item/item24.png	提高武将成长值所需的物品，可用三级培养丹合成	1	0	1	pill	25	4	0	0
+25	五级培养丹	other	purple	0	0	item/item25.png	提高武将成长值所需的物品，可用四级培养丹合成	0	0	1	pill	0	0	0	0
+26	兵符	other	purple	0	1	item/item26.png	兵种转职所需物品，可在精英士兵、千重楼等获得	0	1	1		0	0	1	120
+27	六级培养丹	other	purple	0	0	item/item31.png	提高武将成长值所需的物品，5个五级培养丹合成	0	0	1		0	0	0	0
+28	青铜人偶	consume	blue	0	0	item/xp0.png	有轻度暴力倾向练功人偶，使用后增加武将经验	1	0	1	xp	1	0	0	0
+29	白银人偶	consume	purple	0	0	item/xp1.png	有中度暴力倾向的练功人偶，使用后增加大量武将经验	1	0	1	xp	1.5	0	0	0
+30	黄金人偶	consume	orange	0	0	item/xp2.png	有严重暴力倾向的练功人偶，使用后增加巨额武将经验	1	0	1	xp	2	0	0	0
+37	幸运宝石	other	orange	0	1	item/item37.png	提高装备打造成功率10%的物品	0	0	1		0	0	0	0
+38	小喇叭	other	purple	10	1	item/item38.png	使用后可获得2元宝	1	0	1	box	0	0	0	0
+39	大喇叭	other	orange	0	1	item/item39.png	用于世界公告喊话的道具，每次消耗1个	0	0	1		0	0	0	0
+40	技能残卷一	other	green	100	0	item/item40.png	合成技能书所需残卷中的一种，可通过抢夺获得	0	1	0		0	0	0	0
+41	技能残卷二	other	green	100	0	item/item40.png	合成技能书所需残卷中的一种，可通过抢夺获得	0	1	0		0	0	0	0
+42	技能残卷三	other	green	100	0	item/item40.png	合成技能书所需残卷中的一种，可通过抢夺获得	0	1	0		0	0	0	0
+43	技能残卷四	other	green	100	1	item/item40.png	合成技能书所需残卷中的一种，可通过抢夺获得	0	1	0		0	0	0	0
+49	历练牌	other	orange	0	1	item/item42.png	可刷新『军机处』内历练事项	0	0	1		0	0	0	0
+50	关羽招募令	other	red	0	1	item/vip_roletoken1.png	使用后可获得8个关羽碎片	1	0	1	box	0	0	0	0
+51	赵云招募令	other	red	0	1	item/vip_roletoken2.png	使用后可获得8个赵云碎片	1	0	1	box	0	0	0	0
+52	华佗招募令	other	red	0	1	item/vip_roletoken3.png	使用后可获得3个华佗碎片	1	0	1	box	0	0	0	0
+53	左慈招募令	other	red	0	1	item/vip_roletoken4.png	使用后可获得3个左慈碎片	1	0	1	box	0	0	0	0
+54	吕布招募令	other	red	0	1	item/wheel_roletoken5.png	使用后可获得8个吕布碎片	1	0	1	box	0	0	0	0
+55	诸葛亮招募令	other	red	0	1	item/wheel_roletoken6.png	使用后可获得8个诸葛亮碎片	1	0	1	box	0	0	0	0
+56	洛神招募令	other	red	0	1	item/vip_roletoken7.png	使用后可获得8个洛神碎片	1	0	1	box	0	0	0	0
+57	童渊招募令	other	red	0	1	item/vip_roletoken8.png	使用后可获得3个童渊碎片	1	0	1	box	0	0	0	0
+58	典韦招募令	other	red	0	1	item/dianwei_big.png	使用后可获得8个典韦碎片	1	0	1	box	0	0	0	0
+59	马超招募令	other	red	0	1	item/machao_big.png	使用后可获得8个马超碎片	1	0	1	box	0	0	0	0
+60	张飞招募令	other	red	0	1	item/zhangfei_big.png	使用后可获得8个张飞碎片	1	0	1	box	0	0	0	0
+61	郭嘉招募令	other	red	0	1	item/guojia_big.png	使用后可获得8个郭嘉碎片	1	0	1	box	0	0	0	0
+62	司马懿招募令	other	red	0	1	item/simayi_big.png	使用后可获得8个司马懿碎片	1	0	1	box	0	0	0	0
+63	貂蝉招募令	other	red	0	1	item/diaocan_big.png	使用后可获得8个貂蝉碎片	1	0	1	box	0	0	0	0
+80	科技令	other	orange	0	1	item/science_stone.png	捐献给军团后，军团长可用于升级军团科技	0	0	1		0	0	2	1200
+81	神将残片	other	blue	0	1	item/godstone_piece.png	集齐10个可合成神将碎片，神将碎片可用武将觉醒	0	0	1		0	0	0	0
+82	神将碎片	other	orange	0	1	item/godstone.png	集齐99个可使武将觉醒，兵种实体化，大幅提升属性	0	0	1		0	0	0	0
+83	刷新令	other	orange	0	1	item/shuaxinling.png	可刷新『神秘商店』中的商品	0	0	1		0	0	0	0
+100	关羽碎片	other	red	0	1	item/guanyu_suipian.png	集齐80个可召唤黑白通吃的武财神——关羽	1	0	1	merge	94	80	0	0
+101	赵云碎片	other	red	0	1	item/zhaoyun_suipian.png	集齐80个可召唤风靡万千少女的白马义从星秀——赵云	1	0	1	merge	96	80	0	0
+102	华佗碎片	other	red	0	1	item/huatuo_suipian.png	集齐80个可召唤——华佗（分解可获得24000将魂）	1	0	1	merge	120	80	0	0
+103	左慈碎片	other	red	0	1	item/zuoci_suipian.png	集齐80个可召唤——左慈（分解可获得24000将魂）	1	0	1	merge	119	80	0	0
+104	吕布碎片	other	red	0	1	item/lvbu_suipian.png	集齐80个可召唤超级究极人形兵器——吕布	1	0	1	merge	98	80	0	0
+105	诸葛亮碎片	other	red	0	1	item/zhugeliang_suipian.png	集齐80个可召唤《最强大脑》三国总冠军——诸葛亮	1	0	1	merge	99	80	0	0
+106	洛神碎片	other	red	0	1	item/luoshen_suipian.png	集齐80个可召唤三国最美小姐第三界总冠军——洛神	1	0	1	merge	102	80	0	0
+107	童渊碎片	other	red	0	1	item/tongyuan_suipian.png	集齐80个可召唤——童渊（分解可获得24000将魂）	1	0	1	merge	121	80	0	0
+108	典韦碎片	other	red	0	1	item/dianwei_suipian.png	集齐80个可召唤——典韦	1	0	1	merge	93	80	0	0
+109	马超碎片	other	red	0	1	item/machao_suipian.png	集齐80个可召唤——马超	1	0	1	merge	95	80	0	0
+110	张飞碎片	other	red	0	1	item/zhangfei_suipian.png	集齐80个可召唤——张飞	1	0	1	merge	97	80	0	0
+111	郭嘉碎片	other	red	0	1	item/guojia_suipian.png	集齐80个可召唤——郭嘉	1	0	1	merge	100	80	0	0
+112	司马懿碎片	other	red	0	1	item/simayi_suipian.png	集齐80个可召唤——司马懿	1	0	1	merge	101	80	0	0
+113	貂蝉碎片	other	red	0	1	item/diaochan_suipian.png	集齐80个可召唤——貂蝉	1	0	1	merge	103	80	0	0
+121	黄忠碎片	other	red	0	1	item/huangzhong_suipian.png	集齐40个可召唤——黄忠	1	0	1	merge	83	40	0	0
+122	许褚碎片	other	red	0	1	item/xuchu_suipian.png	集齐40个可召唤——许褚	1	0	1	merge	84	40	0	0
+123	张辽碎片	other	red	0	1	item/zhangliao_suipian.png	集齐40个可召唤——张辽	1	0	1	merge	86	40	0	0
+124	太史慈碎片	other	red	0	1	item/taishici_suipian.png	集齐40个可召唤——太史慈	1	0	1	merge	85	40	0	0
+125	姜维碎片	other	red	0	1	item/jiangwei_suipian.png	集齐40个可召唤——姜维	1	0	1	merge	87	40	0	0
+126	夏侯惇碎片	other	red	0	1	item/xiahoudun_suipian.png	集齐40个可召唤——夏侯惇	1	0	1	merge	69	40	0	0
+127	董卓碎片	other	red	0	1	item/dongzhuo_suipian.png	集齐40个可召唤——董卓	1	0	1	merge	88	40	0	0
+128	庞统碎片	other	red	0	1	item/pangtong_suipian.png	集齐40个可召唤——庞统	1	0	1	merge	89	40	0	0
+129	周瑜碎片	other	red	0	1	item/zhouyu_suipian.png	集齐40个可召唤——周瑜	1	0	1	merge	90	40	0	0
+130	大乔碎片	other	red	0	1	item/daqiao_suipian.png	集齐40个可召唤——大乔	1	0	1	merge	91	40	0	0
+131	小乔碎片	other	red	0	1	item/xiaoqiao_suipian.png	集齐40个可召唤——小乔	1	0	1	merge	92	40	0	0
+1002	二阶图纸	paper	green	4000	0	item/item27.png	打造二阶装备所需的图纸，『英雄祭坛』张宝掉落	0	1	1		0	0	1	20
+1003	三阶图纸	paper	green	6000	0	item/item28.png	打造三阶装备所需的图纸，『英雄祭坛』张角掉落	0	1	1		0	0	1	22
+1004	四阶图纸	paper	blue	8000	0	item/item29.png	打造四阶装备所需的图纸，『英雄祭坛』董卓掉落	0	1	1		0	0	1	24
+1005	五阶图纸	paper	blue	10000	0	item/item30.png	打造五阶装备所需的图纸，『英雄祭坛』吕布掉落	0	1	1		0	0	1	26
+1006	六阶图纸	paper	purple	15000	0	item/item31.png	打造六阶装备所需的图纸，『英雄祭坛』袁术掉落	0	1	1		0	0	1	28
+1007	七阶图纸	paper	purple	20000	0	item/item32.png	打造七阶装备所需的图纸，『英雄祭坛』袁绍掉落	0	1	1		0	0	1	30
+1008	八阶图纸	paper	orange	20000	0	item/item33.png	打造八阶装备所需的图纸，『英雄祭坛』公孙渊掉落	0	1	1		0	0	1	32
+1009	九阶图纸	paper	orange	20000	0	item/item34.png	打造九阶装备所需的图纸，『英雄祭坛』公孙瓒掉落	0	1	1		0	0	1	34
+1010	十阶图纸	paper	orange	20000	0	item/item35.png	打造十阶装备所需的图纸，『英雄祭坛』蒯越掉落	0	1	1		0	0	1	36
+1011	十一阶图纸	paper	orange	20000	0	item/item35.png	打造十一阶装备所需的图纸，『英雄祭坛』刘表掉落	0	1	1		0	0	1	38
+1012	十二阶图纸	paper	orange	20000	0	item/item35.png	打造十二阶装备所需的图纸，『英雄祭坛』马超掉落	0	1	1		0	0	1	40
+1013	十三阶图纸	paper	orange	20000	0	item/item35.png	打造十三阶装备所需的图纸，『英雄祭坛』马腾掉落	0	1	1		0	0	1	42
+1014	十四阶图纸	paper	orange	20000	0	item/item35.png	打造十四阶装备所需的图纸，『英雄祭坛』祝融掉落	0	1	1		0	0	1	44
+1015	十五阶图纸	paper	orange	20000	0	item/item35.png	打造十五阶装备所需的图纸，『英雄祭坛』孟获掉落	0	1	1		0	0	1	46
+1016	十六阶图纸	paper	orange	20000	0	item/item35.png	打造十六阶装备所需的图纸，『英雄祭坛』周瑜掉落	0	1	1		0	0	1	48
+1017	十七阶图纸	paper	orange	20000	0	item/item35.png	打造十七阶装备所需的图纸，『英雄祭坛』孙权掉落	0	1	1		0	0	1	50
+1018	十八阶图纸	paper	orange	20000	0	item/item35.png	打造十八阶装备所需的图纸，『英雄祭坛』张郃掉落	0	1	1		0	0	1	52
+1019	十九阶图纸	paper	orange	20000	0	item/item35.png	打造十九阶装备所需的图纸，『英雄祭坛』曹一凡掉落	0	1	1		0	0	1	54
+1102	生铁	material	green	10	1	item/forge_weapon1102.png	打造二阶武器所需的材料	0	1	1		0	0	1	4
+1103	青铜	material	green	20	1	item/forge_weapon1103.png	打造三阶武器所需的材料	0	1	1		0	0	1	6
+1104	太阴铁	material	green	40	1	item/forge_weapon1104.png	打造四阶武器所需的材料	0	1	1		0	0	1	8
+1105	玄铁	material	green	80	1	item/forge_weapon1105.png	打造五阶武器所需的材料	0	1	1		0	0	1	10
+1106	乌金	material	green	160	1	item/forge_weapon1106.png	打造六阶武器所需的材料	0	1	1		0	0	1	12
+1107	寒铁	material	blue	320	1	item/forge_weapon1107.png	打造七阶武器所需的材料	0	1	1		0	0	1	14
+1108	龙胆钢	material	blue	640	1	item/forge_weapon1108.png	打造八阶武器所需的材料	0	1	1		0	0	1	16
+1109	秘银	material	blue	640	1	item/forge_weapon1109.png	打造九阶武器所需的材料	0	1	1		0	0	1	18
+1110	流光白金	material	blue	640	1	item/forge_weapon1110.png	打造十阶武器所需的材料	0	1	1		0	0	1	20
+1111	天魂钢	material	blue	640	1	item/forge_weapon1111.png	打造十一阶武器所需的材料	0	1	1		0	0	1	22
+1112	风冰晶	material	purple	640	1	item/forge_weapon1112.png	打造十二阶武器所需的材料	0	1	1		0	0	1	24
+1113	混沌熔岩	material	purple	640	1	item/forge_weapon1113.png	打造十三阶武器所需的材料	0	1	1		0	0	1	26
+1114	天外异铁	material	purple	640	1	item/forge_weapon1114.png	打造十四阶武器所需的材料	0	1	1		0	0	1	28
+1115	五彩神石	material	purple	640	1	item/forge_weapon1115.png	打造十五阶武器所需的材料	0	1	1		0	0	1	30
+1116	九天神石	material	orange	640	1	item/forge_weapon1116.png	打造十六阶武器所需的材料	0	1	1		0	0	1	32
+1117	日月灵石	material	orange	640	1	item/forge_weapon1117.png	打造十七阶武器所需的材料	0	1	1		0	0	1	34
+1118	武器材料18	material	orange	640	1	item/forge_weapon1118.png	打造十八阶武器所需的材料	0	1	1		0	0	1	36
+1119	武器材料19	material	orange	640	1	item/forge_weapon1119.png	打造十九阶武器所需的材料	0	1	1		0	0	1	38
+1202	软皮	material	green	10	1	item/forge_armor1202.png	打造二阶铠甲所需的材料	0	1	1		0	0	1	4
+1203	硬皮	material	green	20	1	item/forge_armor1203.png	打造三阶铠甲所需的材料	0	1	1		0	0	1	6
+1204	精制皮革	material	green	40	1	item/forge_armor1204.png	打造四阶铠甲所需的材料	0	1	1		0	0	1	8
+1205	虎皮	material	green	80	1	item/forge_armor1205.png	打造五阶铠甲所需的材料	0	1	1		0	0	1	10
+1206	鬼纹木	material	green	160	1	item/forge_armor1206.png	打造六阶铠甲所需的材料	0	1	1		0	0	1	12
+1207	火龙鳞	material	blue	320	1	item/forge_armor1207.png	打造七阶铠甲所需的材料	0	1	1		0	0	1	14
+1208	金蚕丝	material	blue	640	1	item/forge_armor1208.png	打造八阶铠甲所需的材料	0	1	1		0	0	1	16
+1209	冰蚕丝	material	blue	640	1	item/forge_armor1209.png	打造九阶铠甲所需的材料	0	1	1		0	0	1	18
+1210	金龙鳞	material	blue	640	1	item/forge_armor1210.png	打造十阶铠甲所需的材料	0	1	1		0	0	1	20
+1211	睚眦角	material	blue	640	1	item/forge_armor1211.png	打造十一阶铠甲所需的材料	0	1	1		0	0	1	22
+1212	玄武甲	material	purple	640	1	item/forge_armor1212.png	打造十二阶铠甲所需的材料	0	1	1		0	0	1	24
+1213	麒麟甲	material	purple	640	1	item/forge_armor1213.png	打造十三阶铠甲所需的材料	0	1	1		0	0	1	26
+1214	应龙角	material	purple	640	1	item/forge_armor1214.png	打造十四阶铠甲所需的材料	0	1	1		0	0	1	28
+1215	穷奇角	material	purple	640	1	item/forge_armor1215.png	打造十五阶铠甲所需的材料	0	1	1		0	0	1	30
+1216	雷龙鳞	material	orange	640	1	item/forge_armor1216.png	打造十六阶铠甲所需的材料	0	1	1		0	0	1	32
+1217	饕餮角	material	orange	640	1	item/forge_armor1217.png	打造十七阶铠甲所需的材料	0	1	1		0	0	1	34
+1218	铠甲材料18	material	orange	640	1	item/forge_armor1218.png	打造十八阶铠甲所需的材料	0	1	1		0	0	1	36
+1219	铠甲材料19	material	orange	640	1	item/forge_armor1219.png	打造十九阶铠甲所需的材料	0	1	1		0	0	1	38
+1302	祖母石	material	green	10	1	item/forge_seal1302.png	打造二阶护符所需的材料	0	1	1		0	0	1	4
+1303	绿松石	material	green	20	1	item/forge_seal1303.png	打造三阶护符所需的材料	0	1	1		0	0	1	6
+1304	金玉石	material	green	40	1	item/forge_seal1304.png	打造四阶护符所需的材料	0	1	1		0	0	1	8
+1305	孔雀石	material	green	80	1	item/forge_seal1305.png	打造五阶护符所需的材料	0	1	1		0	0	1	10
+1306	紫牙石	material	green	160	1	item/forge_seal1306.png	打造六阶护符所需的材料	0	1	1		0	0	1	12
+1307	琉璃玉	material	blue	320	1	item/forge_seal1307.png	打造七阶护符所需的材料	0	1	1		0	0	1	14
+1308	寒魄玉	material	blue	640	1	item/forge_seal1308.png	打造八阶护符所需的材料	0	1	1		0	0	1	16
+1309	焰火玉	material	blue	640	1	item/forge_seal1309.png	打造九阶护符所需的材料	0	1	1		0	0	1	18
+1310	岫岩玉	material	blue	640	1	item/forge_seal1310.png	打造十阶护符所需的材料	0	1	1		0	0	1	20
+1311	凤凰胆	material	blue	640	1	item/forge_seal1311.png	打造十一阶护符所需的材料	0	1	1		0	0	1	22
+1312	镇魂珠	material	purple	640	1	item/forge_seal1312.png	打造十二阶护符所需的材料	0	1	1		0	0	1	24
+1313	鬼王牙	material	purple	640	1	item/forge_seal1313.png	打造十三阶护符所需的材料	0	1	1		0	0	1	26
+1314	离火珠	material	purple	640	1	item/forge_seal1314.png	打造十四阶护符所需的材料	0	1	1		0	0	1	28
+1315	幽冥铁	material	purple	640	1	item/forge_seal1315.png	打造十五阶护符所需的材料	0	1	1		0	0	1	30
+1316	神佛珠	material	orange	640	1	item/forge_seal1316.png	打造十六阶护符所需的材料	0	1	1		0	0	1	32
+1317	万魂珠	material	orange	640	1	item/forge_seal1317.png	打造十七阶护符所需的材料	0	1	1		0	0	1	34
+1318	护符材料18	material	orange	640	1	item/forge_seal1318.png	打造十八阶护符所需的材料	0	1	1		0	0	1	36
+1319	护符材料19	material	orange	640	1	item/forge_seal1319.png	打造十九阶护符所需的材料	0	1	1		0	0	1	38
+3001	大钱袋	consume	purple	0	0	item/bag_gold1_icon.png	可以获得一定金币	1	0	1	box	0	0	0	0
+3002	地主钱袋	consume	purple	0	0	item/bag_gold2_icon.png	可以获得较多金币	1	0	1	box	0	0	0	0
+3003	商贾钱袋	consume	purple	0	0	item/bag_gold3_icon.png	沉甸甸的钱袋子，可以获得大量金币	1	0	1	box	0	0	0	0
+3004	富豪钱袋	consume	purple	0	0	item/bag_gold4_icon.png	富甲天下，可以获得巨额金币	1	0	1	box	0	0	0	0
+3005	财神钱袋	consume	purple	0	0	item/bag_gold4_icon.png	财神降临，满贯金银，可以获得巨额金币	1	0	1	box	0	0	0	0
+3006	大财神钱袋	consume	purple	0	0	item/bag_gold4_icon.png	财神降临，满贯金银，可以获得巨额金币	1	0	1	box	0	0	0	0
+3101	军功宝箱(小)	consume	blue	0	0	item/box_honor1.png	装有1000军功的宝箱	1	0	1	honor	1000	0	0	0
+3102	军功宝箱(大)	consume	purple	0	0	item/box_honor2.png	装有5000军功的宝箱	1	0	1	honor	5000	0	0	0
+3103	军功宝箱(超级)	consume	orange	0	0	item/box_honor3.png	装有10000军功的宝箱	1	0	1	honor	10000	0	0	0
+3201	将魂包(小)	consume	blue	0	0	item/bag_soul1.png	装有20将魂的礼包	1	0	1	soul	20	0	0	0
+3202	将魂包(大)	consume	purple	0	0	item/bag_soul2.png	装有100将魂的礼包	1	0	1	soul	100	0	0	0
+3203	将魂包(超级)	consume	orange	0	0	item/bag_soul3.png	装有500将魂的礼包	1	0	1	soul	500	0	0	0
+3301	陈旧的钥匙袋	consume	blue	0	0	item/bag_coin1.png	可获得青铜钥匙	1	0	1	box	0	0	0	0
+3302	崭新的钥匙袋	consume	purple	0	0	item/bag_coin2.png	可获得白银钥匙、青铜钥匙	1	0	1	box	0	0	0	0
+3303	闪亮的钥匙袋	consume	orange	0	0	item/bag_coin3.png	可获得黄金钥匙、白银钥匙、青铜钥匙	1	0	1	box	0	0	0	0
+3304	福娃	material	orange	0	0	item/newyear_fuwa.png	使用福娃可转动轮盘	1	0	0		0	0	0	0
+3305	豪礼宝箱	material	orange	0	0	item/grand_reward.png	开启豪礼宝箱获得超级豪礼	1	0	0		0	0	0	0
+3306	一级炼魂印	other	green	0	0	item/soulxp1.png	增加500点炼魂经验	0	0	1	soul_xp	500	0	0	0
+3307	二级炼魂印	other	blue	0	0	item/soulxp2.png	增加1000点炼魂经验	0	0	1	soul_xp	1000	0	0	0
+3308	三级炼魂印	other	purple	0	0	item/soulxp3.png	增加2000点炼魂经验	0	0	1	soul_xp	2000	0	0	0
+3309	四级炼魂印	other	orange	0	0	item/soulxp4.png	增加5000点炼魂经验	0	0	1	soul_xp	5000	0	0	0
+3401	神秘石头	consume	blue	0	0	item/gem_mystical_icon.png	璞石内隐隐有绿色光华流转，擦擦看或许会有意外的发现！	1	0	1	box	0	0	0	0
+3402	二级命运宝石袋	consume	blue	0	0	item/wheel_bag_gem2.png	可随机获得二级宝石	1	0	1	box	0	0	0	0
+3403	三级命运宝石袋	consume	purple	0	0	item/wheel_bag_gem3.png	可随机获得三级宝石	1	0	1	box	0	0	0	0
+3404	四级命运宝石袋	consume	orange	0	0	item/wheel_bag_gem4.png	可随机获得四级宝石	1	0	1	box	0	0	0	0
+3411	一级宝石袋	consume	green	0	0	item/bag_gem1.png	可随机获得一级宝石	1	0	1	box	0	0	0	0
+3412	二级宝石袋	consume	green	0	0	item/bag_gem2.png	可随机获得二级宝石	1	0	1	box	0	0	0	0
+3413	三级宝石袋	consume	blue	0	0	item/bag_gem3.png	可随机获得三级宝石	1	0	1	box	0	0	0	0
+3414	四级宝石袋	consume	blue	0	0	item/bag_gem4.png	可随机获得四级宝石	1	0	1	box	0	0	0	0
+3415	五级宝石袋	consume	purple	0	0	item/bag_gem5.png	可随机获得五级宝石	1	0	1	box	0	0	0	0
+3416	六级宝石袋	consume	purple	0	0	item/bag_gem6.png	可随机获得六级宝石	1	0	1	box	0	0	0	0
+3417	七级宝石袋	consume	orange	0	0	item/bag_gem7.png	可随机获得七级宝石	1	0	1	box	0	0	0	0
+3418	八级宝石袋	consume	orange	0	0	item/bag_gem8.png	可随机获得八级宝石	1	0	1	box	0	0	0	0
+3419	九级宝石袋	consume	orange	0	0	item/bag_gem9.png	可随机获得九级宝石	1	0	1	box	0	0	0	0
+3420	来自星星的礼包	consume	orange	0	0	item/wheel_bag_gem4.png	打开之后出现来自星星的礼物	1	0	1	box	0	0	0	0
+3421	喜气羊羊包	consume	orange	0	0	item/bag_coin3.png	恭喜新年好！喜气羊羊大礼包！	1	0	1	box	0	0	0	0
+3501	青铜宝箱	consume	blue	0	1	item/treasure_chest1.png	可获得少量培养丹、兵符和中量古币	1	0	1	box	0	0	0	0
+3502	青铜钥匙	consume	blue	0	1	item/treasure_key1.png	使用后获得15元宝	1	0	1	box	0	0	0	0
+3503	纯银宝箱	consume	purple	0	1	item/treasure_chest2.png	可获得中量培养丹、兵符和大量古币	1	0	1	box	0	0	0	0
+3504	纯银钥匙	consume	purple	0	1	item/treasure_key2.png	使用后获得25元宝	1	0	1	box	0	0	0	0
+3505	黄金宝箱	consume	orange	0	1	item/treasure_chest3.png	可获得大量培养丹、兵符和极多古币	1	0	1	box	0	0	0	0
+3506	黄金钥匙	consume	orange	0	1	item/treasure_key3.png	使用后获得55元宝	1	0	1	box	0	0	0	0
+3901	神将碎片包	consume	orange	0	0	item/bag_hero_piece.png	可随机获得左慈、华佗等任意彩将碎片	1	0	1	box	0	0	0	0
+4001	青铜礼包	consume	orange	0	0	item/bag_rechargegift_1.png	缤纷充值活动礼包，打开后有惊喜	1	0	1	box	0	0	0	0
+4002	白银礼包	consume	orange	0	0	item/bag_rechargegift_2.png	缤纷充值活动礼包，打开后有惊喜	1	0	1	box	0	0	0	0
+4003	黄金礼包	consume	orange	0	0	item/bag_rechargegift_3.png	缤纷充值活动礼包，打开后有惊喜	1	0	1	box	0	0	0	0
+4004	白金礼包	consume	orange	0	0	item/bag_rechargegift_4.png	缤纷充值活动礼包，打开后有惊喜	1	0	1	box	0	0	0	0
+4005	钻石礼包	consume	orange	0	0	item/bag_rechargegift_5.png	缤纷充值活动礼包，打开后有惊喜	1	0	1	box	0	0	0	0
+4006	至尊礼包	consume	orange	0	0	item/bag_rechargegift_6.png	缤纷充值活动礼包，打开后有惊喜	1	0	1	box	0	0	0	0
+4007	彩将卡包	consume	orange	0	0	item/bag_gift_golden1.png	可随机获得彩将卡	1	0	1	box	0	0	0	0
+4008	彩将碎片包	consume	orange	0	0	item/bag_hero_piece.png	可随机获得左慈、华佗、童渊等任意彩将碎片	1	0	1	box	0	0	0	0
+4009	红将碎片包	consume	orange	0	0	item/bag_gift_golden1.png	可随机获得红将碎片	1	0	1	box	0	0	0	0
+5001	福娃宝箱	consume	orange	0	0	item/treasure_chest3.png	开启福娃宝箱获得福娃好礼	1	0	1	box	0	0	0	0
+5002	特惠宝石箱	consume	orange	0	0	item/box_gem.png	开启宝箱最低获得三级宝石更有较大几率获得八级宝石	1	0	1	box	0	0	0	0
+5200	藤索	material	purple	0	1	item/horserope_purple.png	金币套马道具	0	0	1	rope	0	0	0	0
+5201	铁索	material	orange	0	1	item/horserope_orange.png	元宝套马道具	0	0	1	rope	0	0	0	0
+5202	铁具	material	purple	0	1	item/horse_rope.png	铁制器具，精细打磨，不易损毁，是制作马鞭的上好材料	0	0	1		0	0	0	0
+5203	皮革	material	purple	0	1	item/leather.png	动物皮革，细密绵软，韧性极强，是制作马鞍的上好材料	0	0	1		0	0	0	0
+9901	3天登陆宝箱	other	orange	0	0	item/treasure_chest1.png	元宝×100，将魂包（超级）×2	0	0	0		0	0	0	0
+9902	18天登陆宝箱	other	orange	0	0	item/treasure_chest2.png	元宝×150，兵符×20	0	0	0		0	0	0	0
+9903	28天登陆宝箱	other	orange	0	0	item/treasure_chest3.png	元宝×250，将魂包（超级）×5	0	0	0		0	0	0	0
+9999	积分	other	green	10	1	item/jifen_add.png	打造二阶武器所需的材料，兖州普通难度关卡掉落	0	1	1		0	0	1	4
+10000	积分	other	green	10	1	item/jifen_cut.png	打造二阶武器所需的材料，兖州普通难度关卡掉落	0	1	1		0	0	1	4

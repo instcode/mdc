@@ -1,0 +1,68 @@
+关键字	资源全路径	显示名称
+Id	res	name
+xp_icon	uires/ui_2nd/image/item/monarch_icon.png	
+heroXp_icon	uires/ui_2nd/image/item/hero_icon.png	
+honor_icon	uires/ui_2nd/image/item/honor_icon.png	
+gold_icon	uires/ui_2nd/image/item/gold_icon.png	
+soul_icon	uires/ui_2nd/image/item/hun.png	
+box	uires/ui_2nd/com/panel/fb/box.png	
+box_pushed	uires/ui_2nd/com/panel/fb/box_pushed.png	
+box_open	uires/ui_2nd/com/panel/fb/box_open.png	
+monster_box	uires/ui_2nd/com/panel/fb/monster_box_1.png	
+green_bp	uires/ui_2nd/com/panel/fb/green_bp.png	
+green_bp_pushed	uires/ui_2nd/com/panel/fb/green_bp_pushed.png	
+blue_bp	uires/ui_2nd/com/panel/fb/blue_bp.png	
+blue_bp_pushed	uires/ui_2nd/com/panel/fb/blue_bp_pushed.png	
+goldmine	uires/ui_2nd/com/panel/fb/goldmine.png	
+goldmine_pushed	uires/ui_2nd/com/panel/fb/goldmine_pushed.png	
+girl	uires/ui_2nd/com/panel/fb/girl.png	
+girl_pushed	uires/ui_2nd/com/panel/fb/girl_pushed.png	
+business	uires/ui_2nd/com/panel/fb/business.png	
+hero	uires/ui_2nd/com/panel/fb/hero.png	
+hero_pushed	uires/ui_2nd/com/panel/fb/hero_pushed.png	
+food_icon	uires/ui_2nd/image/item/food_icon.png	
+arrow	uires/ui_2nd/com/panel/common/arrow_green.png	
+cage	uires/ui_2nd/com/panel/fb/cage.png	
+save	uires/ui_2nd/com/panel/fb/save.png	
+save_frame	uires/ui_2nd/com/panel/fb/save_frame.png	
+cash_icon	uires/ui_2nd/image/item/cash_icon.png	
+rescue_label	uires/ui_2nd/com/panel/fb/rescue.png	
+monster_box_opened	uires/ui_2nd/com/panel/fb/monster_box_2.png	
+disabled	uires/ui_2nd/image/copyscene/buttons/disabled.png	
+pro_normal	uires/ui_2nd/image/copyscene/buttons/pro_normal.png	
+pro_pushed	uires/ui_2nd/image/copyscene/buttons/pro_pushed.png	
+cooper_normal	uires/ui_2nd/image/copyscene/buttons/cooper_normal.png	
+cooper_pushed	uires/ui_2nd/image/copyscene/buttons/cooper_pushed.png	
+silver_normal	uires/ui_2nd/image/copyscene/buttons/silver_normal.png	
+silver_pushed	uires/ui_2nd/image/copyscene/buttons/silver_pushed.png	
+gold_normal	uires/ui_2nd/image/copyscene/buttons/gold_normal.png	
+gold_pushed	uires/ui_2nd/image/copyscene/buttons/gold_pushed.png	
+lv_5_mine	uires/ui_2nd/com/panel/goldmine/refugee_minerals.png	
+lv_4_mine	uires/ui_2nd/com/panel/goldmine/civilian_minerals.png	
+lv_3_mine	uires/ui_2nd/com/panel/goldmine/fertile_minerals.png	
+lv_2_mine	uires/ui_2nd/com/panel/goldmine/noble_minerals.png	
+lv_1_mine	uires/ui_2nd/com/panel/goldmine/win_minerals.png	
+exit_ico	uires/ui_2nd/com/panel/nbbox/exit.png	
+rep_icon	uires/ui_2nd/image/item/rep_icon.png	
+score_icon	uires/ui_2nd/com/panel/card_master/score_label.png	
+coin_icon	uires/ui_2nd/image/item/coin_icon.png	
+token_icon	uires/ui_2nd/com/panel/pvp/token.png	
+fame_icon	uires/ui_2nd/image/item/fame_icon.png	
+jade_icon	uires/ui_2nd/image/item/jade_icon.png	
+1	uires/ui_2nd/image/hero/liubeibei_big.png	刘贝贝
+2	uires/ui_2nd/image/hero/machao_big.png	守将
+3	uires/ui_2nd/image/hero/yanliang_big.png	敌将
+4	uires/ui_2nd/image/hero/lvbu_big.png	吕布
+5	uires/ui_2nd/com/panel/playerguide/diaochan.png	小蝉
+6	uires/ui_2nd/image/hero/lvbu_big.png	吕布
+7	uires/ui_2nd/image/hero/dao_big.png	李蒙
+8	uires/ui_2nd/image/hero/qi_big.png	李暹
+9	uires/ui_2nd/image/hero/jiangwei_big.png	伏完
+10	uires/ui_2nd/com/panel/playerguide/liubeibei_han.png	刘贝贝
+11	uires/ui_2nd/com/panel/playerguide/liubeibei _huo.png	刘贝贝
+12	uires/ui_2nd/image/hero/qiang_big.png	徐荣
+13	uires/ui_2nd/com/panel/playerguide/liubeibei_ku.png	刘贝贝
+14	uires/ui_2nd/com/panel/playerguide/liunbeibei_hei.png	刘贝贝
+15	uires/ui_2nd/image/hero/lingtong_big.png	李傕
+16	uires/ui_2nd/image/hero/huaxiong_big.png	华雄
+17	uires/ui_2nd/image/hero/huaxiong_big.png	孙夏

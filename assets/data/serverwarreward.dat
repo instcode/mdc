@@ -1,0 +1,9 @@
+编号	排名	排名奖励1	排名奖励2	排名奖励3	排名奖励4
+Id	Rank	Award1	Award2	Award3	Award4
+1	1	material.3415:1	material.3308:20	user.token:300	material.82:10
+2	2	material.3414:3	material.3308:17	user.token:300	material.82:9
+3	3	material.3414:2	material.3308:14	user.token:300	material.82:8
+4	4	material.3414:1	material.3308:12	user.token:300	material.82:7
+5	9	material.3413:3	material.3308:10	user.token:300	material.82:6
+6	17	material.3413:2	material.3308:8	user.token:300	material.82:5
+7	33	material.3413:1	material.3308:6	user.token:300	material.82:4

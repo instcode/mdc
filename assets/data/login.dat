@@ -1,0 +1,7 @@
+编号	金币	奖励1	奖励2	名称
+Id	Gold	Award1	Award2	Name
+1	2000	user.cash:20	material.19:1	1日礼包
+2	4000	user.cash:40	material.19:2	2日礼包
+3	6000	user.cash:60	material.19:3	3日礼包
+4	8000	user.cash:80	material.19:4	4日礼包
+5	20000	user.cash:100	material.19:5	5日礼包

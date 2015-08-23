@@ -1,0 +1,16 @@
+Debuff掩码	Debuff描述	Debuff资源路径	Debuff资源类型	DebuffX修正	DebuffY修正	Res2图标	Res2文字	Res2文字颜色
+DebffMask	DebuffDescription	DebuffresourcePath	DebuffResourceType	Debuff_fix_x	Debuff_fix_y	Resource2	Res2Text	Res2TextColor
+2	魅惑	5_5_debuff	1	0	115	NA	+20%	Green
+4	乐不思蜀（睡）	4_5_debuff	1	0	60	NA	+20%	Green
+8	Buff位3	NA	2	0	0	uires/ui_2nd/com/panel/common/attack_ico.png	+20%	Green
+16	Buff位4	NA	2	0	0	uires/ui_2nd/com/panel/common/attack_ico.png	+10%	Green
+32	Buff位5	NA	2	0	0	uires/ui_2nd/com/panel/common/defense_ico.png	+20%	Green
+64	Buff位6	NA	2	0	0	uires/ui_2nd/com/panel/common/defense_ico.png	+10%	Green
+128	Buff位7	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	A	Green
+256	Buff位8	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	B	Green
+512	Buff位9	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	C	Green
+1024	Buff位10	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	D	Green
+2048	Buff位11	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	E	Green
+4096	Buff位12	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	F	Green
+8192	Buff位13	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	G	Green
+16384	Buff位14	NA	2	0	0	uires/ui_2nd/com/panel/common/big_cash_ico.png	H	Green

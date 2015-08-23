@@ -1,0 +1,6 @@
+编号	宝石等级	开放距离开服时间（天）
+Id	GemLevel	GemLevelOpenDays
+1	6	0
+2	7	10
+3	8	10
+4	9	999

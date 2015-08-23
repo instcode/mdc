@@ -1,0 +1,4 @@
+编号	战斗奖励1	描述
+Id	Award1	Desc
+1	user.token:5	失败的奖励
+2	user.token:10	胜利的奖励

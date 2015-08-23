@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>screenWidth</key><integer>1136</integer>
+	<key>screenHeight</key><integer>640</integer>
+	<key>screenScale</key><real>1.0</real>
+	<key>ConsoleOpenFlag</key><integer>1</integer>
+	<key>LogOutputFlag</key><integer>1</integer>
+	<key>LogWriteFlag</key><real>1</real>
+</dict>
+</plist>
