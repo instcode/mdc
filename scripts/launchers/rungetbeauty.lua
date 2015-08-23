@@ -1,0 +1,1 @@
+require 'ceremony/panel/get_beauty_panel'

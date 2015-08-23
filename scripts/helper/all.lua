@@ -1,0 +1,10 @@
+require_modules(
+	'ceremony/helper/array',
+	'ceremony/helper/basic',
+	'ceremony/helper/json',
+	'ceremony/helper/message',
+	'ceremony/helper/game_controller',
+	'ceremony/helper/bit',
+	'ceremony/helper/uiman',
+	'ceremony/helper/utils'
+)

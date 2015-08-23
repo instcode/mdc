@@ -1,0 +1,66 @@
+genWorldBossRewardHelpPanel = function ()
+	local function createPanel()
+		local function getChild( parent , name , ttype )
+			return tolua.cast(parent:getChildByName(name) , ttype)
+		end
+		
+		local sceneObj = SceneObjEx:createObj('panel/boss_award_help_panel.json' , 'WbossRewardHelpPanel-in-lua')
+		local panel = sceneObj:getPanelObj()
+		panel:setAdaptInfo('award_help_bg_img' , 'award_help_img')
+
+		panel:registerInitHandler(function ()
+			local root = panel:GetRawPanel()
+		
+			local closeBtn = getChild(root ,'close_btn' , 'UIButton')
+			closeBtn:registerScriptTapHandler(UiMan.genCloseHandler(sceneObj))
+			GameController.addButtonSound(closeBtn , BUTTON_SOUND_TYPE.CLOSE_EFFECT)
+			
+			local knowBtn = getChild(root ,'know_btn' , 'UITextButton')
+			knowBtn:registerScriptTapHandler(UiMan.genCloseHandler(sceneObj))
+			GameController.addButtonSound(knowBtn , BUTTON_SOUND_TYPE.CLICK_EFFECT)	
+
+			local awardBg = getChild(root ,'award_help_bg_img' , 'UIImageView')
+			awardBg:registerScriptTapHandler(UiMan.genCloseHandler(sceneObj))
+
+			local awardImg = getChild(awardBg ,'award_help_img' , 'UIImageView')
+
+			local sv = tolua.cast(awardImg:getChildByName('system_sv'),'UIScrollView')
+			local infoTx1 = tolua.cast(sv:getChildByName('info_1_tx'), 'UILabel')
+			infoTx1:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_1'))
+			infoTx1:setPreferredSize(670,1)
+			local infoTx2 = tolua.cast(sv:getChildByName('info_2_tx'), 'UILabel')
+			infoTx2:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_2'))
+			infoTx2:setPreferredSize(670,1)
+			local infoTx3 = tolua.cast(sv:getChildByName('info_3_tx'), 'UILabel')
+			infoTx3:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_3'))
+			infoTx3:setPreferredSize(670,1)
+			local infoTx4 = tolua.cast(sv:getChildByName('info_4_tx'), 'UILabel')
+			infoTx4:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_4'))
+			infoTx4:setPreferredSize(670,1)	
+			local infoTx5 = tolua.cast(sv:getChildByName('info_5_tx'), 'UILabel')
+			infoTx5:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_5'))
+			infoTx5:setPreferredSize(670,1)
+			local infoTx6 = tolua.cast(sv:getChildByName('info_6_tx'), 'UILabel')
+			infoTx6:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_6'))
+			infoTx6:setPreferredSize(670,1)	
+			local infoTx7 = tolua.cast(sv:getChildByName('info_7_tx'), 'UILabel')
+			infoTx7:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_7'))
+			infoTx7:setPreferredSize(670,1)	
+			local infoTx8 = tolua.cast(sv:getChildByName('info_8_tx'), 'UILabel')
+			infoTx8:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_8'))
+			infoTx8:setPreferredSize(670,1)	
+			local infoTx9 = tolua.cast(sv:getChildByName('info_9_tx'), 'UILabel')
+			infoTx9:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_9'))
+			infoTx9:setPreferredSize(670,1)	
+			local infoTx10 = tolua.cast(sv:getChildByName('info_10_tx'), 'UILabel')
+			infoTx10:setText(getLocalStringValue('HELP_BOSS_CHALLENGE_10'))
+			infoTx10:setPreferredSize(670,1)
+			sv:setClippingEnable(true)
+			sv:scrollToTop()
+		end)
+
+		UiMan.show(sceneObj)
+	end
+	
+	createPanel()
+end

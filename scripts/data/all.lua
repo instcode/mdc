@@ -1,0 +1,19 @@
+require_modules(
+	'ceremony/data/game_data',
+	'ceremony/data/player_core_data',
+	'ceremony/data/user_data',
+	'ceremony/data/vip_profile',
+	'ceremony/data/recharge',
+	'ceremony/data/benefits',
+	'ceremony/data/battledrop',
+	'ceremony/data/monster',
+	'ceremony/data/give_god_data',
+	'ceremony/data/battle_data',
+	'ceremony/data/strong_data',
+	'ceremony/data/divinityprofile',
+	'ceremony/data/divinity_data',
+	'ceremony/data/attributes_dict',
+	'ceremony/data/divinityprofile',
+	'ceremony/data/temp_data',
+	'ceremony/data/wboss_data'
+)

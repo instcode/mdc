@@ -1,0 +1,62 @@
+local function genViewUpdater(panel, help)
+	return function() 
+		local root = panel:GetRawPanel()
+        local helpBgImg = tolua.cast(root:getChildByName('training_bg_img'), 'UIImageView')
+        local helpImg = tolua.cast(helpBgImg:getChildByName('training_img'), 'UIImageView')
+        local closeBtn = tolua.cast(helpImg:getChildByName('close_btn'), 'UIButton')
+        GameController.addButtonSound(closeBtn, BUTTON_SOUND_TYPE.CLOSE_EFFECT)
+		closeBtn:registerScriptTapHandler(function()
+			CUIManager:GetInstance():HideObject(help, ELF_HIDE.SMART_HIDE)
+		end)
+
+		local knowBtn = tolua.cast(helpImg:getChildByName('know_btn'), 'UITextButton')
+        GameController.addButtonSound(knowBtn, BUTTON_SOUND_TYPE.CLOSE_EFFECT)
+		knowBtn:registerScriptTapHandler(function()
+			CUIManager:GetInstance():HideObject(help, ELF_HIDE.SMART_HIDE)
+		end)
+		local helpSv = tolua.cast(helpImg:getChildByName('help_sv'),'UIScrollView')
+		local helpPl = tolua.cast(helpSv:getChildByName('help_pl'),'UIPanel')
+    	helpSv:setClippingEnable(true)
+    	helpSv:scrollToTop()
+
+		local infoTx1 = tolua.cast(helpImg:getChildByName('help_info_1_tx'), 'UILabel')
+		infoTx1:setText(getLocalStringValue('HELP_TRAINING_1'))
+		infoTx1:setPreferredSize(670,1)
+		local infoTx2 = tolua.cast(helpImg:getChildByName('help_info_2_tx'), 'UILabel')
+		infoTx2:setText(getLocalStringValue('HELP_TRAINING_2'))
+		infoTx2:setPreferredSize(670,1)
+		local infoTx3 = tolua.cast(helpImg:getChildByName('help_info_3_tx'), 'UILabel')
+		infoTx3:setText(getLocalStringValue('HELP_TRAINING_3'))
+		infoTx3:setPreferredSize(670,1)
+		local infoTx4 = tolua.cast(helpImg:getChildByName('help_info_4_tx'), 'UILabel')
+		infoTx4:setText(getLocalStringValue('HELP_TRAINING_4'))
+		infoTx4:setPreferredSize(670,1)
+		local infoTx5 = tolua.cast(helpImg:getChildByName('help_info_5_tx'), 'UILabel')
+		infoTx5:setText(getLocalStringValue('HELP_TRAINING_5'))
+		infoTx5:setPreferredSize(670,1)
+		local infoTx6 = tolua.cast(helpImg:getChildByName('help_info_6_tx'), 'UILabel')
+		infoTx6:setText(getLocalStringValue('HELP_TRAINING_6'))
+		infoTx6:setPreferredSize(670,1)
+		local infoTx7 = tolua.cast(helpImg:getChildByName('help_info_7_tx'), 'UILabel')
+		infoTx7:setText(getLocalStringValue('HELP_TRAINING_7'))
+		infoTx7:setPreferredSize(670,1)
+		local infoTx8 = tolua.cast(helpImg:getChildByName('help_info_8_tx'), 'UILabel')
+		infoTx8:setText(getLocalStringValue('HELP_TRAINING_8'))
+		infoTx8:setPreferredSize(670,1)
+
+	end
+end
+
+function genTrainingHelpPanel()
+    local help = SceneObjEx:createObj('panel/training_help_panel.json', 'training-help-lua')
+
+    local panel = help:getPanelObj()        --# This is a BasePanelEx object
+    panel:setAdaptInfo('training_bg_img', 'training_img')
+    local viewUpdater = genViewUpdater(panel, help)
+
+	panel:registerInitHandler(function()
+		viewUpdater()
+	end)
+    -- Show now
+    CUIManager:GetInstance():ShowObject(help, ELF_SHOW.SMART)
+end
