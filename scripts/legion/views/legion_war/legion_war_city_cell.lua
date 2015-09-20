@@ -59,7 +59,7 @@ function LegionWarCityCell:challengePeople()
 				GameController.clearAwardView() -- 清除战斗奖励(用于没有经验和奖励的战斗)
 				if res.data.battle then
 					GameController.saveOldBattleInfo()
-					GameController.playBattle(json.encode(res.data.battle), 4)
+					GameController.playBattle(json.encode(res.data.battle), 5)
 				end
 				LegionWarController.sendLegionWarGetBattleFieldRequest(function ( res )
 					local code = res.code
