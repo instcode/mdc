@@ -64,6 +64,7 @@ function KillRole.enter()
 	local lost = false
 	local freeTimes = 0
 	local cashTimes = 0
+	local nextChallenger = false
 
 	local function getMaxResetTimesByKey( key )
 		local tab = {}
@@ -229,6 +230,7 @@ function KillRole.enter()
 				isNeedUpdate = tonumber(data['battle']['success']) == 1
 				GameController.clearAwardView()
 				if isNeedUpdate or not lost then
+					nextChallenger = true
 					GameController.playBattle(json.encode(data['battle']) , 5)
 				else
 					if count % 10 == 0 then
@@ -362,6 +364,11 @@ function KillRole.enter()
 		updateBar()
 		updateBox()
 		updateEnemyPos()
+
+		if nextChallenger then
+			GameController:showPrompts("Advance to next challenger...", COLOR_TYPE.GREEN)
+			onClickChallengeBtn()
+		end
 	end
 
 	local function onShow()
@@ -398,6 +405,8 @@ function KillRole.enter()
 				local award = UserData:getAward(awardStr)
 				genOneAwardPanel(award)
 				rewardData = {}
+
+				nextChallenger = false
 			end
 
 			isNeedUpdate = false
